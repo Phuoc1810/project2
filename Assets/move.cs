@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
@@ -72,5 +73,12 @@ public class player : MonoBehaviour
             isattacking = true;
         }
        
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Door"))
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }
