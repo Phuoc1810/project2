@@ -68,3 +68,6 @@ TagManager:
   - name: tree
     uniqueID: 210901455
     locked: 0
+  - name: Chest
+    uniqueID: 446413879
+    locked: 0
