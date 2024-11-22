@@ -18,11 +18,15 @@ public class player : MonoBehaviour
     private float attacktime=.25f;
     private float attackcouter=.25f;
     private bool isattacking= false;
+
+    [SerializeField] private GameObject panel_UIPlayer;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        panel_UIPlayer.SetActive(false);
         //singleton: 1 chay xuyen suot 1 game;
         // khong xoa nv khi chuyen scene
         if (_instance == null)
@@ -72,7 +76,18 @@ public class player : MonoBehaviour
             anim.SetBool("isattacking", true);
             isattacking = true;
         }
-       
+       if(Input.GetKeyDown (KeyCode.E))
+        {
+            panel_UIPlayer.SetActive(!panel_UIPlayer.activeSelf);
+            if(panel_UIPlayer.activeSelf)
+            {
+                Time.timeScale = 0;
+            }
+            else
+            {
+                Time.timeScale = 1;
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
