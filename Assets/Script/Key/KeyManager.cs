@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KeyManager : MonoBehaviour
 {
     public static KeyManager instance; //Singleton de chia chia khoa toan cuc
 
-    public int[] keysPerLand = new int[4]; //So chia khoa ma nguoi choi thu thap trong moi vung dat
+    public int totalKeys = 0; //tong so chia khoa thu thap
+    public Text keysTexts; //hien thi so luong key cho tung vung dat
 
     private void Awake()
     {
@@ -21,15 +23,27 @@ public class KeyManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-   public void AddKey(int landIndex)
+   public void AddKey()
     {
-        if(landIndex >= 0 && landIndex < keysPerLand.Length)
+        totalKeys++;
+        UpdateUI();
+    }
+    //cap nhat text UI hien thi so chia khoa
+    public void UpdateUI()
+    {
+        if(keysTexts != null)
         {
-            keysPerLand[landIndex]++; // tang so chia khoa cho vung dat chi dinh
+            keysTexts.text = totalKeys.ToString();
         }
     }
-    public bool HasAllKeys(int landIndex)
+    public bool HasAllKeys()
     {
-        return keysPerLand[landIndex] >= 4; //Kiem tra du 4 chia khoa chua
+        return totalKeys >= 4; //Kiem tra du 4 chia khoa chua
+    }
+    //gan text UI khi load lai scene chinh
+    public void SetKeyTexts(Text newkeyTexts)
+    {
+        keysTexts = newkeyTexts;
+        UpdateUI();
     }
 }

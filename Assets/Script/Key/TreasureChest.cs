@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TreasureChest : MonoBehaviour
 {
-    public int landIndex; //Vung dat ma ruong nay thuoc ve
+    
     private bool isOpen = false;
 
     private Animator chestAnimator;
@@ -17,10 +17,17 @@ public class TreasureChest : MonoBehaviour
         if(other.CompareTag("Player") && !isOpen)
         {
             isOpen = true;
-            KeyManager.instance.AddKey(landIndex);
-            Debug.Log("Da nhan Key");
-            chestAnimator.SetTrigger("Openchest");
+            KeyManager.instance.AddKey();
+            OpenChest();
+            Debug.Log("Nguoi choi da nhan duoc key tu vung dat");
             Destroy(gameObject, 2);
+        }
+    }
+    private void OpenChest()
+    {
+        if(chestAnimator != null)
+        {
+            chestAnimator.SetTrigger("Openchest");
         }
     }
 }

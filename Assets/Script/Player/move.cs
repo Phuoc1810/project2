@@ -35,10 +35,11 @@ public class player : MonoBehaviour
         }
         else
         {
+            Destroy(panel_UIPlayer);
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
-
+        DontDestroyOnLoad(panel_UIPlayer);
     }
 
     // Update is called once per frame
