@@ -42,6 +42,7 @@ public class TreasureChest : MonoBehaviour
         if(notification_Canvas != null)
         {
             notification_Canvas.SetActive(true);//hien thi canvas
+            Time.timeScale = 0;
             StartCoroutine(WaitForAnyToClose());//choi nguoi choi nhan nut bat ki
         }
     }
@@ -53,6 +54,7 @@ public class TreasureChest : MonoBehaviour
         if(notification_Canvas != null)
         {
             Destroy(notification_Canvas); //xoa canvas
+            Time.timeScale = 1;
         }
     }
 }
