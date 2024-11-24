@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enemy
   - fire
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Water
+    uniqueID: 1392939101
+    locked: 0
   - name: br
     uniqueID: 2425651459
     locked: 0
@@ -52,6 +56,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grass
+    uniqueID: 2504138011
+    locked: 0
+  - name: Player
+    uniqueID: 1535054025
+    locked: 0
+  - name: Wall
+    uniqueID: 3433668935
+    locked: 0
   - name: tree
     uniqueID: 210901455
+    locked: 0
+  - name: Chest
+    uniqueID: 446413879
+    locked: 0
+  - name: UI
+    uniqueID: 2136275169
     locked: 0

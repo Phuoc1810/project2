@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/sprite/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/map1 1.unity
+    guid: eb9f7953f802c41459088502d4c21555
+  - enabled: 1
+    path: Assets/Scenes/Map1.unity
+    guid: 1a63d2a6653f706468936f5d6de1a29b
+  - enabled: 1
+    path: Assets/Scenes/BossRoom01.unity
+    guid: d040ead23fef9ea44afd8fde09fdc4e4
   m_configObjects: {}
