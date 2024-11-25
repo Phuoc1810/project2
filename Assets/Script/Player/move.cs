@@ -20,6 +20,7 @@ public class player : MonoBehaviour
     private bool isattacking= false;
 
     [SerializeField] private GameObject panel_UIPlayer;
+    [SerializeField] private GameObject Canvas_HealBar;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,7 @@ public class player : MonoBehaviour
         anim = GetComponent<Animator>();
 
         panel_UIPlayer.SetActive(false);
+        Canvas_HealBar.SetActive(true);
         //singleton: 1 chay xuyen suot 1 game;
         // khong xoa nv khi chuyen scene
         if (_instance == null)
@@ -37,9 +39,11 @@ public class player : MonoBehaviour
         {
             Destroy(panel_UIPlayer);
             Destroy(gameObject);
+            Destroy(Canvas_HealBar);
         }
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(panel_UIPlayer);
+        DontDestroyOnLoad(Canvas_HealBar);  
     }
 
     // Update is called once per frame
