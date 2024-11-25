@@ -25,15 +25,35 @@ namespace Pathfinding {
 			// frame as the destination is used for debugging and may be used for other things by other
 			// scripts as well. So it makes sense that it is up to date every frame.
 			if (ai != null) ai.onSearchPath += Update;
+            //StartCoroutine(FindPlayerAfterDelay());
+        }
+		IEnumerator FindPlayerAfterDelay()
+		{
+			yield return new WaitForSeconds(0.1f); // doi Player duoc tao trong scene
+
+			GameObject player = GameObject.FindGameObjectWithTag("Player");
+			if (player != null)
+			{
+				target = player.transform; //gan target la Transform cua player
+				Debug.Log("Player Perfab Found! Target set to:"+ target.name);
+			}
+			else
+			{
+				Debug.Log("Player perfab not found");
+			}
 		}
 
-		void OnDisable () {
+        void OnDisable () {
 			if (ai != null) ai.onSearchPath -= Update;
 		}
 
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			if (target != null && ai != null) ai.destination = target.position;
+		}
+		public void SetTarget(Transform newTarget)
+		{
+			target = newTarget;
 		}
 	}
 }
