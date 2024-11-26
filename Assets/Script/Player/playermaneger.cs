@@ -7,6 +7,10 @@ public class playermaneger : MonoBehaviour
     public static playermaneger _instance;
     [SerializeField] private Slider hpSlider;
     [SerializeField] private Slider mpSlider;
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     private void Update()
     {
         setuphpmp();
