@@ -1196,7 +1196,7 @@ Transform:
   m_GameObject: {fileID: 620964666}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1958084, y: 6.1236, z: -10}
+  m_LocalPosition: {x: 2.1974068, y: 6.1236, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8778,7 +8778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACwn+tBjOFLXgIAABoFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziUDbihxb60hpAcCE9rJxRdhrbEGWfLog68M/70r2cYO4QBi39vVe7trfxAuTQWZVXqhOVsqBuTngPgz+TbowBc40Z2SG36BlvPOmS08iQbOG7VcYXzs04wqwWqe/ZI74ckjDDrJc6XLOdtBoow1GM6pMICQVtZnSwx9DMgJf4axTznjKZr60wVP8WhwxWMG0oLuqC1x+jB6ivHTsGuyk5mgZQXMK+9yxqM2a1LzJJpqKN5ApoTgplFE7LkKjhNaGYd+kMA4RYdBhucXwHeF9Wr7yas8N2AbiZqeZ1xjo+qq5Lequ1dSs6+FHahw/p7JOAqa6qLLL/hwHOBcq/Klvbc2ZAue7d/oOaPG9trbD88+C3fySMWebgW8FyBf1UIrJxmCVjuf6gxEs+7vzVpSQLbv4rXUu6Crvg6pnaX3cA3uT4ng5dZDD491YCNU6HdYAdA4mT8oOCyIaUpg1Kv4Z+Av3fU3qQGeuTYWocal9PK2ymlPJfPQM+/G2URpCSHciK5AUmHPayxj70d4h/WuvUOeqX9mmssbrH0U7lJCuOOPRnfQWh1vwzKFOi7BFCtnBZfQifbAK/YpUVLWG9bvSZu2cTqnWS9t5zj7vFoEnjKk5GwS43c0jobA4mke0yiOJ/TH90dGwu5xiT6pWNdCm/bg1GRXXOKeta+SwULTKmw70/S44JdS9VrOZa42mQaQq7rCTThovASfSjZnHBu0AWu5DPMmHykRKtsDS2+F0uB0frKapl2VlFT8oKyPpCQJ746U+PBtl9caDhyO/vK22JVc/wNQSwMEFAAACAgAALCf696N/IlsAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKqRXJicmpaiqklkDQyNNJNTbE0T7NMNLK0NE00MzZJUYoFqi+pLEj1S8xNhegJSCzJSMvMS8nMS9dzL8pMcQcZrRRbCwBQSwECLQAUAAAICAAAsJ/rQYzhS14CAAAaBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAsJ/r3o38iWwAAAB4AAAACQAkAAAAAAAAAAAAAACrAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAGIDAAAAAA==
+    dataString: UEsDBBQAAAgIAAA4IexBjOFLXgIAABoFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziUDbihxb60hpAcCE9rJxRdhrbEGWfLog68M/70r2cYO4QBi39vVe7trfxAuTQWZVXqhOVsqBuTngPgz+TbowBc40Z2SG36BlvPOmS08iQbOG7VcYXzs04wqwWqe/ZI74ckjDDrJc6XLOdtBoow1GM6pMICQVtZnSwx9DMgJf4axTznjKZr60wVP8WhwxWMG0oLuqC1x+jB6ivHTsGuyk5mgZQXMK+9yxqM2a1LzJJpqKN5ApoTgplFE7LkKjhNaGYd+kMA4RYdBhucXwHeF9Wr7yas8N2AbiZqeZ1xjo+qq5Lequ1dSs6+FHahw/p7JOAqa6qLLL/hwHOBcq/Klvbc2ZAue7d/oOaPG9trbD88+C3fySMWebgW8FyBf1UIrJxmCVjuf6gxEs+7vzVpSQLbv4rXUu6Crvg6pnaX3cA3uT4ng5dZDD491YCNU6HdYAdA4mT8oOCyIaUpg1Kv4Z+Av3fU3qQGeuTYWocal9PK2ymlPJfPQM+/G2URpCSHciK5AUmHPayxj70d4h/WuvUOeqX9mmssbrH0U7lJCuOOPRnfQWh1vwzKFOi7BFCtnBZfQifbAK/YpUVLWG9bvSZu2cTqnWS9t5zj7vFoEnjKk5GwS43c0jobA4mke0yiOJ/TH90dGwu5xiT6pWNdCm/bg1GRXXOKeta+SwULTKmw70/S44JdS9VrOZa42mQaQq7rCTThovASfSjZnHBu0AWu5DPMmHykRKtsDS2+F0uB0frKapl2VlFT8oKyPpCQJ746U+PBtl9caDhyO/vK22JVc/wNQSwMEFAAACAgAADgh7N6N/IlsAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKqRXJicmpaiqklkDQyNNJNTbE0T7NMNLK0NE00MzZJUYoFqi+pLEj1S8xNhegJSCzJSMvMS8nMS9dzL8pMcQcZrRRbCwBQSwECLQAUAAAICAAAOCHsQYzhS14CAAAaBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAOCHs3o38iWwAAAB4AAAACQAkAAAAAAAAAAAAAACrAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAGIDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -22186,6 +22186,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3426696233733491033, guid: fad95cfd2b29e0d45becdec16aededed,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4219885512817839141, guid: fad95cfd2b29e0d45becdec16aededed,
         type: 3}
       propertyPath: m_Name
@@ -22244,8 +22249,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4219885512817839141, guid: fad95cfd2b29e0d45becdec16aededed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5130925393975229543}
   m_SourcePrefab: {fileID: 100100000, guid: fad95cfd2b29e0d45becdec16aededed, type: 3}
+--- !u!1 &5130925393975229542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4219885512817839141, guid: fad95cfd2b29e0d45becdec16aededed,
+    type: 3}
+  m_PrefabInstance: {fileID: 5130925393975229541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5130925393975229543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130925393975229542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd805c641abf8514691f4c300baedc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: map 3
+  targetSpawmPointName: Spawm02
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
