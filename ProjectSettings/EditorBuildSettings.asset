@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/sprite/Scenes/SampleScene.unity
+    path: Assets/sprite/Scenes/map 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/map1 1.unity
+    path: Assets/Scenes/map 2.unity
     guid: eb9f7953f802c41459088502d4c21555
   - enabled: 1
-    path: Assets/Scenes/Map1.unity
+    path: Assets/Scenes/map 3.unity
     guid: 1a63d2a6653f706468936f5d6de1a29b
   - enabled: 1
     path: Assets/Scenes/BossRoom01.unity

@@ -27,6 +27,7 @@ namespace Pathfinding {
 			if (ai != null) ai.onSearchPath += Update;
             //StartCoroutine(FindPlayerAfterDelay());
         }
+		
 		IEnumerator FindPlayerAfterDelay()
 		{
 			yield return new WaitForSeconds(0.1f); // doi Player duoc tao trong scene
@@ -48,7 +49,8 @@ namespace Pathfinding {
 		}
 
 		/// <summary>Updates the AI's destination every frame</summary>
-		void Update () {
+		void Update () 
+		{
 			if (target != null && ai != null) ai.destination = target.position;
 		}
 		public void SetTarget(Transform newTarget)
