@@ -1,0 +1,2956 @@
+fileFormatVersion: 2
+guid: ebfe1abbdbb99d5448a815f053e0e794
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1256
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c187acfe7ea9f14c99484bcc334ccea
+      internalID: 821036262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1255
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99efbb7efeb1a0e4a9edd3ad240fca8a
+      internalID: -2142116966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1255
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec640267cf6e539439e74a05e9234fb2
+      internalID: -833802941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1255
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf856a93491d2344b19faf256709019
+      internalID: -731127076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1255
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e99c12208f02334cadf21d2e63e1072
+      internalID: 439768677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1255
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87664bc0394f9e14a8a135c91f6a15f6
+      internalID: -870077904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1255
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286c4bbd3846d50409904f3ec4940596
+      internalID: 1540288157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_8
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1255
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103217f24f32ee94b858a0856101076d
+      internalID: 967457344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_9
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1255
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa4d52fef4ea14684bcc53babaa384
+      internalID: 1759547300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_10
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1255
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8e7acf60174604796e996d9901b2db
+      internalID: -1396725182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_11
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1255
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeb1c72fa06cb34189942c82a7270d3
+      internalID: 1498864875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1164
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b4203b0b1b10d4f8f34a44ef3a2fbf
+      internalID: 1551989131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1164
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfb69afd4d8e95408ec12bac226de75
+      internalID: 1711669286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1164
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a642091df9d1bf346a479ca2ceb0dc82
+      internalID: 1213255583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1164
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3421bbbc4464b4e80165176a1d9d9a
+      internalID: 609912406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1164
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b3b4dd75f40004083a37218582b962
+      internalID: 129449189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1078
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69a9b3fd6e854499c3f37aaca51929
+      internalID: -506499338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1078
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa40347980cd624282f72e66da458ca
+      internalID: -1426823427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d377ea976492141b3302c34f07fb03
+      internalID: 1516954806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01efc26d67e44224cba18cf426ba59f6
+      internalID: -104980536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_21
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da47979d675f1e844972b620aee5c48d
+      internalID: 962241425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_22
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10545b93535625d43bacb37645280a55
+      internalID: 1120326715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cb721727fad584f8422635778a7209
+      internalID: 1054002303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1078
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1fc1fc8f7b0c947a3af01e184f403a
+      internalID: -1912857367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_25
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1078
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b197541f67a7f442ba6e7d39daa960f
+      internalID: 1523170556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_26
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1078
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb7a7e5d1cbe4544ad941ae57130c21
+      internalID: 1894275073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 987
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e7d653faf8d444b5ed88dba5ac70f
+      internalID: -699215657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 987
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf587bdff461ec543895833552139c4d
+      internalID: -1677241806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 987
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d74ade909c7fb4ab48c106d180583f
+      internalID: 1893034734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 987
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f50c5721200bf4b97dc82814cfcad6
+      internalID: -8660454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 987
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9fee7cc4cc71e48b9cb057a65828c2
+      internalID: -1343245971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_32
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 987
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921f2f21c89ac654f9fdd43a9bf760a7
+      internalID: -1773147093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_33
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 987
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07c308b194f5b348b482aaf6c10339d
+      internalID: 749763168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_34
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 987
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900ba393ac7523a4da6f3df476dab376
+      internalID: 1133556449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_35
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 981
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3e9d40b056dd14e94539f35dbbc117
+      internalID: -1729322546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_36
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 980
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93ec728ea779449b83accc2c27323b
+      internalID: -416185923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_37
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 980
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c207f04104c48f940bf0cb475871b587
+      internalID: 961291849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 889
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9deaa152aa5324b94c2102943a51d3
+      internalID: 229917271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_39
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 889
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ec711c851a0042848a155ea4011bc
+      internalID: 1377418588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 805
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54bf1e06431f0a4a83ff65d53703b79
+      internalID: 969552509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 805
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b030a19a08de3fa498776d8e2c68eb17
+      internalID: -329682688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 805
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f9b75e05446424196e741cd4c91857
+      internalID: -1313918099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_43
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 805
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46822c7355f2764982134d3ea6e55a8
+      internalID: 1067433323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_44
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 805
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619170257ae5987449138f0c786325ef
+      internalID: -1003745350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_45
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 805
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dca46e6232b9d4481d9b406fae5f81
+      internalID: 2133673406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_46
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 798
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063fca3d7f1c2043935c1811ea324bf
+      internalID: 667628877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_47
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 798
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497cf93d1dffd5246889bfaf79500c08
+      internalID: 217749884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_48
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 797
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de769e99e06a5a24a9728f2331dc81d7
+      internalID: 1486528606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_49
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 800
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90caf7af42ff597489af8dc0a24881c0
+      internalID: 1771758187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_50
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 800
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c952b332dc518c543a52c1d4191a030e
+      internalID: -146707801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_51
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 710
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ced6949a7c38df449195a174eb1338c
+      internalID: -2126138899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 725
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692854bfa4a0d1e4aa954054d64f7735
+      internalID: -1466528773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee860f82512203f41aa8a066fc345808
+      internalID: -422830719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 712
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561e71a2aca502546a5001bfdf0c773f
+      internalID: 1037317832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_55
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61058656f37e103418b68152c6e27fec
+      internalID: -732068912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_56
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce2ad6169c52148999718d2496bd89
+      internalID: -528028503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_57
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeed8aa8cc8bda4ea732b48afae81f2
+      internalID: -523262983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_58
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 725
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7039e54f2a93b4bade82fa421f4762
+      internalID: -1749125063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_59
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 710
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc880396992917449e8aa018494606c
+      internalID: 244086210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_60
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 708
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6c19c895aeb084292e36ca1e1a686d
+      internalID: -1055710482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_61
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 710
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87395a278d19c7c4c931f3922943dd52
+      internalID: 377984062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_62
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 616
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2dcb2a48ee7704881774dd1024325b
+      internalID: 586849156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_63
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 615
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7df0e7b62ccbbf4dbcf0d35516f8743
+      internalID: 1585705456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_64
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 617
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b92766b5539854396a19e58df84655
+      internalID: 1788437049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_65
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 620
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905e730dfaa9e0a45977e9979294eb77
+      internalID: 349850610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_66
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 623
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfaa509d12a47c43b6c52db20d3f3e3
+      internalID: 1524929842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_67
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 623
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b162bc3405c901546ae7030297a31a42
+      internalID: 953138392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_68
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 623
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97fb14b68969f8418590f47a88440c8
+      internalID: 1872036875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_69
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 625
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf233a5e6c40b48be7e155db7c7e75
+      internalID: 968757651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_70
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 623
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a60f980574924e84fb8899d73e23e
+      internalID: -991221249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_71
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 546
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469bffcb9060eae4f9d3ed43de4fc8ce
+      internalID: 662359491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 466
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546931fabe43d5a439e65bcc4a992e7f
+      internalID: -1805180519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 465
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa65c2a4b616448941d7039a3a5c1e
+      internalID: -2113315583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_74
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 465
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2952dbd2dc46e442b626f3ffd805c12
+      internalID: 635064645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_75
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 466
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ddf828b2e9c64fb242ae03e38639d
+      internalID: 354015451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_76
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 465
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b285cb92e4975184abc003aba12ead0d
+      internalID: 1267166193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_77
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 465
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841df6c91443fe3428e956c7466ba56c
+      internalID: -1438575089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_78
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 466
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef64760b9b206f9459b97de37891482f
+      internalID: 1710522249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_79
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 464
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82656029a31524448283379c01cf3e5
+      internalID: -973417049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_80
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 464
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69721567e2e2234eafc433d668c1c3c
+      internalID: -1719933295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_81
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 463
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08e525ec37a142468d26d1adc2bf4c7
+      internalID: -1589936221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_82
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 463
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7625c05a0d42846af11cf515dcd769
+      internalID: -1295923486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_83
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 373
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04975a98210094c4aa469fd1e1bf1f68
+      internalID: -1232005474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_84
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 371
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ec16549e658043ab6073d4bbdfce6
+      internalID: 2063365506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 373
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f07c1a1a5cf02a49a8749ed6091727d
+      internalID: 1692968867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_87
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 371
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890510696ff793449a0c01f6f0802f9d
+      internalID: -289044644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 368
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c98a27e5aae0a6419cff7611a76c617
+      internalID: 239923665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_90
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 367
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353a86c87865c8543a03ee3935687bae
+      internalID: -1078987676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_92
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 375
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f2424a81fcd149992bba13607871b
+      internalID: -1067603020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_93
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 375
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73612189fd047de4ebdf3b4a695ed6a3
+      internalID: -1487469724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_94
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 375
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ce4950e3a0ac248bc0ffd9ebdac3cb
+      internalID: 900494309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_95
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 375
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612d47096091fdb459e8ab62cb68f29e
+      internalID: 895754997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_96
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 368
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df7753a2f11d5c40b8acb8aab43988b
+      internalID: 1837574597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_97
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 277
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f805ed5560d2254783feee1d7a9e93f
+      internalID: 1882259412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_98
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 276
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222680a7b286fb42bc88187bda1c228
+      internalID: -1248901500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_99
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 276
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab0fec374d004f4ea08f0e274b70ce7
+      internalID: 1741559273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_100
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 276
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c536fe7b87017148a943fed9df7eba5
+      internalID: 711108289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_101
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 276
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99abb7a3f2e5f53479b9ba86109b4dbf
+      internalID: -1277451024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_102
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 276
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aebb458fddfada48a309a19967a3d5f
+      internalID: 505602616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_103
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 276
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9897a6b99bbdb48a601ea8f5c5fcbc
+      internalID: -1270490388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_104
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 276
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d8e7977b0b264bb342b4253dfd4f2
+      internalID: -1213951753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_105
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 276
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcafad6798d3f74b9b91d71ab06e670
+      internalID: -594247949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_106
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 276
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06744420cdb12b54091f69b000e40132
+      internalID: -1338249236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_107
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 276
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490fcc190e08d57499e384c45416d9f0
+      internalID: -944822804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 185
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f443af5910bd4394516512e584dab
+      internalID: -1993158587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 185
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187a673d223aa6f46a1bcbb102eabc10
+      internalID: 286137889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_110
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 185
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d03be986375254db516be299de0386
+      internalID: -1461923805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_111
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 185
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a44a4c026160041a2ac32538b432a1
+      internalID: 345885778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_112
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 185
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394083b6413c43d4885c6aacb942f38e
+      internalID: -1404047784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_113
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 185
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8f07d269c1c8c4f82bfe12e55bb4a2
+      internalID: 1405015134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_114
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 185
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654a504def9dae7458db3e1664a6ca7c
+      internalID: 1666869927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_115
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 185
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb603acf801506b47a4cc27641b8249e
+      internalID: 1579538985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_116
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 185
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6cfacfdb5d5e2408e293add0be4e31
+      internalID: -1441321631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_117
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 185
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b330b880989404a96465b17270af55
+      internalID: 1841881394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_118
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 185
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9de88135143bee45ab84fd161396e0f
+      internalID: 1489517741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_119
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 94
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a58e3b39458d4daa59f68b9dce46f
+      internalID: 493294651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_120
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 94
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9944295a8e3a03449070d2179032d19
+      internalID: 1768827775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_121
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 94
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54cbbd9608d92f4682dd110937eda71
+      internalID: -273169912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_122
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 94
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edcd5f0848c354d9be85687343018a
+      internalID: 2060411839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_123
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 94
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ecec512be73f14c8c570953944e456
+      internalID: -1846050012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_124
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 94
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e758738563272cd49a62e14a62829bec
+      internalID: 1941299907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_125
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 91
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69f4f0b667caa242afab6adb0f1efb0
+      internalID: 2092103116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_126
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 94
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c7823827bd7ab4ea1a93c39beb2313
+      internalID: 1373580001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_127
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 94
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570876881f9a6154da2b5c4d7d8eece5
+      internalID: -1436963554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_128
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 94
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bd53bd4b325824dbe5e74b5c3c2533
+      internalID: 286097010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_129
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 94
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22576899095db8f4ab12d66f219f9488
+      internalID: 403866282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d292056aba86083489882f55053baf0c
+      internalID: -1113874518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_131
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c1a7930bee864680fcdeaaa9bf605
+      internalID: -1470903332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope_132
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3c5986f841eef4dac5605e9062c088
+      internalID: 840684080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_0: -1085618729
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_1: 821036262
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_10: -1396725182
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_100: 711108289
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_101: -1277451024
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_102: 505602616
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_103: -1270490388
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_104: -1213951753
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_105: -594247949
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_106: -1338249236
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_107: -944822804
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_108: -1993158587
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_109: 286137889
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_11: 1498864875
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_110: -1461923805
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_111: 345885778
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_112: -1404047784
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_113: 1405015134
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_114: 1666869927
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_115: 1579538985
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_116: -1441321631
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_117: 1841881394
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_118: 1489517741
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_119: 493294651
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_12: 1551989131
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_120: 1768827775
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_121: -273169912
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_122: 2060411839
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_123: -1846050012
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_124: 1941299907
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_125: 2092103116
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_126: 1373580001
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_127: -1436963554
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_128: 286097010
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_129: 403866282
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_13: 1711669286
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_130: -1113874518
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_131: -1470903332
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_132: 840684080
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_14: 1213255583
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_15: 609912406
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_16: 129449189
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_17: -506499338
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_18: -1426823427
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_19: 1516954806
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_2: -2142116966
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_20: -104980536
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_21: 962241425
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_22: 1120326715
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_23: 1054002303
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_24: -1912857367
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_25: 1523170556
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_26: 1894275073
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_27: -699215657
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_28: -1677241806
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_29: 1893034734
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_3: -833802941
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_30: -8660454
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_31: -1343245971
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_32: -1773147093
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_33: 749763168
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_34: 1133556449
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_35: -1729322546
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_36: -416185923
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_37: 961291849
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_38: 229917271
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_39: 1377418588
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_4: -731127076
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_40: 969552509
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_41: -329682688
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_42: -1313918099
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_43: 1067433323
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_44: -1003745350
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_45: 2133673406
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_46: 667628877
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_47: 217749884
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_48: 1486528606
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_49: 1771758187
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_5: 439768677
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_50: -146707801
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_51: -2126138899
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_52: -1466528773
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_53: -422830719
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_54: 1037317832
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_55: -732068912
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_56: -528028503
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_57: -523262983
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_58: -1749125063
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_59: 244086210
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_6: -870077904
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_60: -1055710482
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_61: 377984062
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_62: 586849156
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_63: 1585705456
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_64: 1788437049
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_65: 349850610
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_66: 1524929842
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_67: 953138392
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_68: 1872036875
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_69: 968757651
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_7: 1540288157
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_70: -991221249
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_71: 662359491
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_72: -1805180519
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_73: -2113315583
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_74: 635064645
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_75: 354015451
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_76: 1267166193
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_77: -1438575089
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_78: 1710522249
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_79: -973417049
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_8: 967457344
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_80: -1719933295
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_81: -1589936221
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_82: -1295923486
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_83: -1232005474
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_84: 2063365506
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_85: -79449946
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_86: 1692968867
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_87: -289044644
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_88: 239923665
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_89: -555125295
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_9: 1759547300
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_90: -1078987676
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_91: 497648816
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_92: -1067603020
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_93: -1487469724
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_94: 900494309
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_95: 895754997
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_96: 1837574597
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_97: 1882259412
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_98: -1248901500
+      PC Computer - Hyper Light Drifter - The Hierophant JerkPope_99: 1741559273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
