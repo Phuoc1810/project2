@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerSpawmToBoss : MonoBehaviour
 {
     public static PlayerSpawmToBoss Instance;
-    public string spawmPointName;// Ten diem spawm ma player se xuat hien
+    public string pointToBoss;// Ten diem spawm ma player se xuat hien
     private void Awake()
     {
+        Debug.Log("PlayerSpawmToBoss instance created.");
         if (Instance == null)
         {
             Instance = this;
@@ -15,30 +16,44 @@ public class PlayerSpawmToBoss : MonoBehaviour
         }
         else
         {
+            Debug.Log("Duplicate PlayerSpawmToBoss instance destroyed.");
             Destroy(gameObject);
         }
-    }
+   }
     void Start()
     {
+        Debug.Log("PlayerSpawmToBoss is running in scene: " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         MovePlayerToSpawmPoint();
     }
-    private void MovePlayerToSpawmPoint()
+    private IEnumerator MovePlayerToSpawmPoint()
     {
-        if(!string.IsNullOrEmpty(spawmPointName))
+        yield return new WaitForSeconds(3f);
+        Debug.Log("Checking Spawn Point: " + pointToBoss);
+        if (!string.IsNullOrEmpty(pointToBoss))
         {
-            GameObject spawmPoint = GameObject.Find(spawmPointName); //tim diem spawm theo ten
+            GameObject spawmPoint = GameObject.Find(pointToBoss); //tim diem spawm theo ten
             if(spawmPoint != null)
             {
-                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                GameObject player = GameObject.FindWithTag("Player");
+                Debug.Log("Found Spawn Point: " + pointToBoss);
                 if (player != null)
                 {
+                    Debug.Log("Player found, moving to: " + spawmPoint.transform.position);
                     player.transform.position = spawmPoint.transform.position;
+                }
+                else
+                {
+                    Debug.LogWarning("Player not found in scene!");
                 }
             }
             else
             {
-                Debug.LogWarning("Spawm point not found! "+ spawmPointName);
+                Debug.LogWarning("Spawm point not found! "+ pointToBoss);
             }
+        }
+        else
+        {
+            Debug.LogWarning("Spawn Point Name is null or empty!");
         }
     }
 }
