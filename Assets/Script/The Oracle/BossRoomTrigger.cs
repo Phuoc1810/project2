@@ -8,6 +8,8 @@ public class BossRoomTrigger : MonoBehaviour
     public CinemachineVirtualCamera bossCamera;
     public Animator bossAnimator;
     public float cameraDuration = 3f;// thoi gian camera tap trung vao boss
+    public Transform bossTransform; //Transform cua boss de camera di chuyen den do
+    
 
     private bool bossStarted = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,16 +22,36 @@ public class BossRoomTrigger : MonoBehaviour
     }
     IEnumerator StartBossSequence()
     {
-        //kich hoat camera
+        //kich hoat camera focus vao boss
         bossCamera.Priority = 20;
-        //chay animation start cua boss
+
+        //di chuyen camera tu player den boss (su dung coroutine de di chuyen dan)
+        float elapsedTime = 0f;
+        Transform playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        Vector3 startingPosition = playerTransform.position;
+        Vector3 targetingPosition = bossTransform.position;
+
+        // di chuyen camera tu player den boss trong thoi gian cameraDuration
+        while(elapsedTime < cameraDuration)
+        {
+            // khong thay doi position cua camera, chi thay doi follow va LookAt
+            float t = elapsedTime/cameraDuration;
+            bossCamera.transform.position = Vector3.Lerp(startingPosition, targetingPosition, t);
+            elapsedTime += Time.deltaTime;
+            yield return null;  
+        }
+        
+        //dam bao camera dung vi tri cua boss
+        bossCamera.transform.position = targetingPosition;
+
+        //chay animation bat dau cua boss sau khi di chuyen camera hoan tat
         bossAnimator.SetTrigger("Start");
-
-        //cho thoi gian camera gui focus
+        //cho thoi gian cho animation va camera tap trung vao boss
         yield return new WaitForSeconds(cameraDuration);
+        //chuyen camera ve lai player
+        bossCamera.Priority = 5;
 
-        bossCamera.Priority = 5; //chuyen camera ve nguoi choi
-        //chuyen boss sang trang thai idle
+        //chuyen boss sang trang thai indle
         bossAnimator.SetTrigger("Indle");
     }
 }
