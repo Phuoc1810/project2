@@ -2,6 +2,7 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BossRoomTrigger : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class BossRoomTrigger : MonoBehaviour
     public Animator bossAnimator;
     public float cameraDuration = 3f;// thoi gian camera tap trung vao boss
     public Transform bossTransform; //Transform cua boss de camera di chuyen den do
-    
 
     private bool bossStarted = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -30,6 +30,10 @@ public class BossRoomTrigger : MonoBehaviour
         Transform playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         Vector3 startingPosition = playerTransform.position;
         Vector3 targetingPosition = bossTransform.position;
+
+        //khoa truc z cua camera
+        targetingPosition.z = bossCamera.transform.position.z;
+        startingPosition.z = bossCamera.transform.position.z;
 
         // di chuyen camera tu player den boss trong thoi gian cameraDuration
         while(elapsedTime < cameraDuration)
