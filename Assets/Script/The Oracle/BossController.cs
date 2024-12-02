@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -46,27 +46,27 @@ public class BossController : MonoBehaviour
         yield return new WaitForSeconds(1); // thoi gian cho tuong ung vo animation tan cong
 
         // lay vi tri hien tai cua player la diem bat dau
-        Vector3 startPosition = playerTransform.position;
         currentDirection = Vector3.up; // huong mac dinh cua vien gach
 
         float spacing = 1.5f; // khoang cach giua cac vien gach
-        Vector3 lastTilePosition = startPosition; // vi tri cua vien gach cuoi cung
+        Vector3 lastTilePosition = playerTransform.position; // vi tri ban dau la vi tri player
 
         for (int i = 0; i < numberOfTile; i++)
         {
-            // tinh toan vi tri moi
-            Vector3 tilePosition = startPosition + currentDirection * spacing;
+            // tinh toan vi tri moi (tinh theo vi tri cuoi cùng, không phải vị trí người chơi)
+            Vector3 tilePosition = lastTilePosition + currentDirection * spacing;
+
+            // tạo viên gạch tại vị trí tính toán
             if (playerTransform != null)
             {
                 Debug.Log("Spawning tile");
-                // tao vien gach tai vi tri nguoi choi
                 GameObject tile = Instantiate(explosiveTilePerfab, tilePosition, Quaternion.identity);
-                tile.GetComponent<ExplosiveTile>().Initialize(tilePosition);
+                tile.GetComponent<ExplosiveTile>().Initialize(playerTransform.position);
             }
 
             // cap nhat vi tri va huong
-            lastTilePosition = tilePosition; // cap nhat vi tri vien gach cuoi
-            currentDirection = GetNetDerection(currentDirection);
+            lastTilePosition = tilePosition; // cap nhat vi tri cuoi cho viên gach tiếp theo
+            currentDirection = GetNetDerection(currentDirection); // thay doi huong theo chuỗi
             // cho truoc khi tao o vuong tiep theo
             yield return new WaitForSeconds(tileSpawmInterval);
         }
@@ -74,7 +74,7 @@ public class BossController : MonoBehaviour
 
     private Vector3 GetNetDerection(Vector3 current)
     {
-        // xoay huong luon phien, vuong goc: len, xuong, trai, phai
+        // xoay huong theo chuỗi vuông góc: len, phai, xuong, trai
         if (current == Vector3.up) return Vector3.right;
         if (current == Vector3.right) return Vector3.down;
         if (current == Vector3.down) return Vector3.left;
