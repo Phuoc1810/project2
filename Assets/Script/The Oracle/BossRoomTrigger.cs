@@ -10,6 +10,7 @@ public class BossRoomTrigger : MonoBehaviour
     public Animator bossAnimator;
     public float cameraDuration = 3f;// thoi gian camera tap trung vao boss
     public Transform bossTransform; //Transform cua boss de camera di chuyen den do
+    public BossController bossController; //tham chieu den BossController
 
     private bool bossStarted = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -57,5 +58,6 @@ public class BossRoomTrigger : MonoBehaviour
 
         //chuyen boss sang trang thai indle
         bossAnimator.SetTrigger("Indle");
+
     }
 }
