@@ -1,0 +1,760 @@
+fileFormatVersion: 2
+guid: 5380dd22da259af4fa05ce9abae441a4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Legacy Red Back Side_Frame_3
+    originalName: 
+    pivot: {x: 0.25714287, y: -0.61290324}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 31
+    spriteID: 497869dc4cbf1854d87c9a97b2c53215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Legacy Red Back Side_Frame_4
+    originalName: 
+    pivot: {x: 0.041666668, y: -0.71999997}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 24
+      height: 25
+    spriteID: a20fcf98812db314f901b3f28f659064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Legacy Red Back Side_Frame_5
+    originalName: 
+    pivot: {x: 0, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 23
+      height: 10
+    spriteID: 7fb376254c5b9ad458d1a0db88cfdc3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: Legacy Red Back Side_Frame_6
+    originalName: 
+    pivot: {x: -0.22222222, y: -3.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 4
+      width: 9
+      height: 6
+    spriteID: a860aa95a5b80b44694ed5312f7ad2b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 4}
+  - name: Legacy Red Back Side_Frame_7
+    originalName: 
+    pivot: {x: -0.625, y: -5.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 115
+      width: 8
+      height: 4
+    spriteID: 13c2b42ec75fd1448a532e1ad2a2a13b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 115}
+  - name: Legacy Red Back Side_Frame_8
+    originalName: 
+    pivot: {x: -0.71428573, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 18
+      width: 7
+      height: 3
+    spriteID: 62174df3f16b420448ff0d8ceb5696b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 18}
+  - name: Legacy Red Back Side_Frame_9
+    originalName: 
+    pivot: {x: -1.6, y: -8.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 59
+      width: 5
+      height: 3
+    spriteID: 4ae9f12d98718f741b73b0a4d46bb73e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 59}
+  - name: Legacy Red Back Side_Frame_10
+    originalName: 
+    pivot: {x: 0.25714287, y: -0.8214286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 35
+      height: 28
+    spriteID: 623458be56660a04ea4e223b2fb75bb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Legacy Red Back Side_Frame_11
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.8148148}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 28
+      height: 27
+    spriteID: b64af5ca8de927f408fb705096216b66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: Legacy Red Back Side_Frame_12
+    originalName: 
+    pivot: {x: 1.1, y: -0.91999996}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 37
+      width: 10
+      height: 25
+    spriteID: 9fc3a578544eef74cb01a989fccac82b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 37}
+  - name: Legacy Red Back Side_Frame_13
+    originalName: 
+    pivot: {x: 1.8000001, y: -8.333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 61
+      width: 5
+      height: 3
+    spriteID: a95732bfbda56394e967fb6dac8c867e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 61}
+  - name: Legacy Red Back Side_Frame_14
+    originalName: 
+    pivot: {x: 3.5, y: -13.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 114
+      width: 2
+      height: 2
+    spriteID: 7841249d4baebf546993aa56812ade12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 114}
+  - name: Legacy Red Back Side_Frame_42
+    originalName: 
+    pivot: {x: -0.375, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 92
+      width: 8
+      height: 15
+    spriteID: 4082a424efcfdef429700c351362923f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 92}
+  - name: Legacy Red Back Side_Frame_43
+    originalName: 
+    pivot: {x: -0.5, y: -1.7857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 70
+      width: 6
+      height: 14
+    spriteID: 1f1b12eced98783478fc022fd42d64be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 70}
+  - name: Legacy Red Back Side_Frame_44
+    originalName: 
+    pivot: {x: -0.8, y: -2.1666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 92
+      width: 5
+      height: 12
+    spriteID: d0e106146352edd46800819370cca0e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 92}
+  - name: Legacy Red Back Side_Frame_45
+    originalName: 
+    pivot: {x: -0.8, y: -2.3636365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 5
+      height: 11
+    spriteID: 2c8cfe8d5e062744bb127e2d327d1957
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: Legacy Red Back Side_Frame_46
+    originalName: 
+    pivot: {x: -0.8, y: -2.3636365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 23
+      width: 5
+      height: 11
+    spriteID: a6b7f366418325d47a26bc49350e99ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 23}
+  - name: Legacy Red Back Side_Frame_47
+    originalName: 
+    pivot: {x: -0.5, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 112
+      width: 6
+      height: 10
+    spriteID: 89fd44e4b20548d49a9a4cd828af41a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 112}
+  - name: Legacy Red Back Side_Frame_48
+    originalName: 
+    pivot: {x: -0.6, y: -2.5454545}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 42
+      width: 5
+      height: 11
+    spriteID: ff3444f0dd307574eaaa03ae6ccbc6bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 42}
+  - name: Legacy Red Back Side_Frame_49
+    originalName: 
+    pivot: {x: 0.11111111, y: -1.8571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 70
+      width: 9
+      height: 14
+    spriteID: 584027fba0644e74bbd34264d65d5803
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 70}
+  - name: Legacy Red Back Side_Frame_50
+    originalName: 
+    pivot: {x: -0.5, y: -1.7857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 37
+      width: 6
+      height: 14
+    spriteID: 76cc7b8b01c633c42bf4c058f1135352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 37}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2009906572
+    name: Legacy Red Back Side
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Legacy Red Back Side_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 19
+        width: 35
+        height: 31
+      spriteId: 497869dc4cbf1854d87c9a97b2c53215
+    - name: Legacy Red Back Side_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 18
+        width: 24
+        height: 25
+      spriteId: a20fcf98812db314f901b3f28f659064
+    - name: Legacy Red Back Side_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 18
+        width: 23
+        height: 10
+      spriteId: 7fb376254c5b9ad458d1a0db88cfdc3f
+    - name: Legacy Red Back Side_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 34
+        y: 20
+        width: 9
+        height: 6
+      spriteId: a860aa95a5b80b44694ed5312f7ad2b7
+    - name: Legacy Red Back Side_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 22
+        width: 8
+        height: 4
+      spriteId: 13c2b42ec75fd1448a532e1ad2a2a13b
+    - name: Legacy Red Back Side_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 24
+        width: 7
+        height: 3
+      spriteId: 62174df3f16b420448ff0d8ceb5696b6
+    - name: Legacy Red Back Side_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 26
+        width: 5
+        height: 3
+      spriteId: 4ae9f12d98718f741b73b0a4d46bb73e
+    - name: Legacy Red Back Side_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 23
+        width: 35
+        height: 28
+      spriteId: 623458be56660a04ea4e223b2fb75bb4
+    - name: Legacy Red Back Side_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 22
+        width: 28
+        height: 27
+      spriteId: b64af5ca8de927f408fb705096216b66
+    - name: Legacy Red Back Side_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 23
+        width: 10
+        height: 25
+      spriteId: 9fc3a578544eef74cb01a989fccac82b
+    - name: Legacy Red Back Side_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 25
+        width: 5
+        height: 3
+      spriteId: a95732bfbda56394e967fb6dac8c867e
+    - name: Legacy Red Back Side_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 27
+        width: 2
+        height: 2
+      spriteId: 7841249d4baebf546993aa56812ade12
+    - name: Legacy Red Back Side_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 25
+        width: 8
+        height: 15
+      spriteId: 4082a424efcfdef429700c351362923f
+    - name: Legacy Red Back Side_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 25
+        width: 6
+        height: 14
+      spriteId: 1f1b12eced98783478fc022fd42d64be
+    - name: Legacy Red Back Side_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 26
+        width: 5
+        height: 12
+      spriteId: d0e106146352edd46800819370cca0e7
+    - name: Legacy Red Back Side_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 26
+        width: 5
+        height: 11
+      spriteId: 2c8cfe8d5e062744bb127e2d327d1957
+    - name: Legacy Red Back Side_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 26
+        width: 5
+        height: 11
+      spriteId: a6b7f366418325d47a26bc49350e99ac
+    - name: Legacy Red Back Side_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 28
+        width: 6
+        height: 10
+      spriteId: 89fd44e4b20548d49a9a4cd828af41a4
+    - name: Legacy Red Back Side_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 28
+        width: 5
+        height: 11
+      spriteId: ff3444f0dd307574eaaa03ae6ccbc6bf
+    - name: Legacy Red Back Side_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 26
+        width: 9
+        height: 14
+      spriteId: 584027fba0644e74bbd34264d65d5803
+    - name: Legacy Red Back Side_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 25
+        width: 6
+        height: 14
+      spriteId: 76cc7b8b01c633c42bf4c058f1135352
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
