@@ -48,7 +48,7 @@ public class BossController : MonoBehaviour
             //spawm xung quanh nguoi choi
             if (tileManager != null && playerTransform != null)
             {
-                tileManager.SpawmTitleInSequence(playerTransform.position);
+                tileManager.SpawnTiles(transform.position, playerTransform);
             }
             animator.SetTrigger("Indle");
 

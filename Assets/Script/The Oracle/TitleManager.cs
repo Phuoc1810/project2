@@ -4,32 +4,36 @@ using UnityEngine;
 
 public class TitleManager : MonoBehaviour
 {
-    public GameObject explosiveTilePerfab; // prefab của viên gạch
-    public int numberOfTiles = 8; // số viên gạch
-    public float tileSpacing = 1.5f; // khoảng cách giữa các viên gạch
-    public float spawmDelay = 0.5f; // thời gian giữa các lần spawn
+    public GameObject explosiveTilePerfab; // Prefab của viên gạch
+    public int numberOfTiles = 8; // Số lượng viên gạch cần spawn
+    public float tileSpacing = 1.5f; // Khoảng cách giữa các viên gạch
 
-    public void SpawmTitleInSequence(Vector3 bossPosition)
+    // Phương thức spawn các viên gạch theo đường vuông góc
+    public void SpawnTiles(Vector3 startPosition, Transform playerTransform)
     {
-        StartCoroutine(SpawmTilesCoroutine(bossPosition));
+        StartCoroutine(SpawnTilesCoroutine(startPosition, playerTransform));
     }
 
-    private IEnumerator SpawmTilesCoroutine(Vector3 bossPosition)
+    private IEnumerator SpawnTilesCoroutine(Vector3 startPosition, Transform playerTransform)
     {
-        Vector3 lastTilePosition = bossPosition; // viên gạch đầu tiên spawn tại vị trí boss
+        Vector3 directionToPlayer = (playerTransform.position - startPosition).normalized; // Tính hướng từ boss đến player
+
+        // Tính hướng vuông góc với hướng từ boss đến player. 
+        Vector3 perpendicularDirection = new Vector3(-directionToPlayer.y, directionToPlayer.x, 0); // Vector vuông góc (xoay 90 độ)
+
+        Vector3 lastTilePosition = startPosition; // Vị trí viên gạch đầu tiên là vị trí của boss
 
         for (int i = 0; i < numberOfTiles; i++)
         {
-            // Spawn viên gạch tại vị trí của viên gạch trước đó
+            // Spawn viên gạch tại vị trí tính toán
             GameObject tile = Instantiate(explosiveTilePerfab, lastTilePosition, Quaternion.identity);
-
-            // Khởi tạo viên gạch (vẫn giữ vị trí spawn của nó)
             tile.GetComponent<ExplosiveTile>().Initialize(lastTilePosition);
 
-            // Cập nhật vị trí cho viên gạch tiếp theo (dọc theo đường thẳng)
-            lastTilePosition += new Vector3(tileSpacing, 0, 0); // move theo hướng thẳng ngang (hoặc điều chỉnh theo ý bạn)
+            // Tính vị trí cho viên gạch tiếp theo, di chuyển theo hướng vuông góc
+            lastTilePosition += perpendicularDirection * tileSpacing; // Di chuyển viên gạch tiếp theo theo hướng vuông góc với đường nối boss-player
 
-            yield return new WaitForSeconds(spawmDelay);
+            // Chờ một chút trước khi spawn viên gạch tiếp theo
+            yield return new WaitForSeconds(0.3f); // Thời gian chờ giữa các lần spawn
         }
     }
 }

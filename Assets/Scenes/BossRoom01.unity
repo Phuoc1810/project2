@@ -413,7 +413,7 @@ MonoBehaviour:
   explosiveTilePerfab: {fileID: 8293801626626920611, guid: 0600fce6ceb74ae459ce1ef517e9524a,
     type: 3}
   numberOfTiles: 8
-  spawmDelay: 0.5
+  tileSpacing: 8
 --- !u!1 &448676550
 GameObject:
   m_ObjectHideFlags: 3
