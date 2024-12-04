@@ -375,7 +375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424018333}
-  - component: {fileID: 424018332}
+  - component: {fileID: 424018334}
   m_Layer: 0
   m_Name: BossManager
   m_TagString: Untagged
@@ -383,24 +383,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &424018332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424018331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd746ca976b124343b42c03da71ee50f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosiveTilePerfab: {fileID: 8293801626626920611, guid: 0600fce6ceb74ae459ce1ef517e9524a,
-    type: 3}
-  animator: {fileID: 1286584662}
-  tileSpawmInterval: 0.5
-  numberOfTile: 100
-  timeStart: 3
 --- !u!4 &424018333
 Transform:
   m_ObjectHideFlags: 0
@@ -416,6 +398,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &424018334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424018331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6920ec39b41f542b0a7694fa38a4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosiveTilePerfab: {fileID: 8293801626626920611, guid: 0600fce6ceb74ae459ce1ef517e9524a,
+    type: 3}
+  numberOfTiles: 8
+  spawmDelay: 0.5
 --- !u!1 &448676550
 GameObject:
   m_ObjectHideFlags: 3
@@ -945,7 +943,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -861298361
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -2110,6 +2108,7 @@ GameObject:
   - component: {fileID: 1286584664}
   - component: {fileID: 1286584663}
   - component: {fileID: 1286584662}
+  - component: {fileID: 1286584665}
   m_Layer: 0
   m_Name: The Oracle
   m_TagString: Untagged
@@ -2177,7 +2176,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1535054025
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -506499338, guid: ebfe1abbdbb99d5448a815f053e0e794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2205,6 +2204,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286584665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286584661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd746ca976b124343b42c03da71ee50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1286584662}
+  tileManager: {fileID: 424018334}
+  timeStart: 2.5
+  spawmDelay: 0
 --- !u!1 &1358194927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2298,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1535054025
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 209004535, guid: 6525d967591b3ae43a95aa1863c2789f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

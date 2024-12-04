@@ -9,6 +9,7 @@ public class ExplosiveTile : MonoBehaviour
 
     //collider de kich hoat khi nguoi choi di vao pham vi
     private Collider2D explosiveCollider;
+
     void Start()
     {
         explosiveCollider = GetComponent<Collider2D>();
@@ -26,10 +27,11 @@ public class ExplosiveTile : MonoBehaviour
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
     }
+
+    //xu li vu no 
     private void Explode()
     {
         Destroy(gameObject); //xoa o vuong sau khi phat no
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
