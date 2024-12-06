@@ -9,6 +9,9 @@ public class ExplosiveTile : MonoBehaviour
 
     //collider de kich hoat khi nguoi choi di vao pham vi
     private Collider2D explosiveCollider;
+    //reference den camerashake
+    private CameraShake cameraShake;
+    private Cinemachine.CinemachineVirtualCamera virtualCamera;
     void Start()
     {
         explosiveCollider = GetComponent<Collider2D>();
@@ -20,14 +23,36 @@ public class ExplosiveTile : MonoBehaviour
         {
             explosiveCollider.isTrigger = true; 
         }
+
+        //lay reference den cameraShake
+        virtualCamera = GameObject.Find("Virtual Camera").GetComponent<Cinemachine.CinemachineVirtualCamera>();
+        if( virtualCamera != null)
+        {
+            cameraShake = virtualCamera.GetComponent<CameraShake>(); //lay cameraShake tu Virtual Camera
+            if(cameraShake == null)
+            {
+                Debug.LogError("Cinemachine Virtual Camera does not have CameraShake component");
+            }
+        }
+        else
+        {
+            Debug.LogError("Cinemachine Virtual Camera not Found!");
+        }
     }
     public void Initialize(Vector3 spawmPosition)
     {
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
+
+        
     }
     private void Explode()
     {
+        //goi hieu ung rung lac khi phat no
+        if(cameraShake != null)
+        {
+            cameraShake.Shake();
+        }
         Destroy(gameObject); //xoa o vuong sau khi phat no
 
     }
