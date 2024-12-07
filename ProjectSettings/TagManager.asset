@@ -8,6 +8,7 @@ TagManager:
   - fire
   - Door
   - pointToBoss
+  - Boss
   layers:
   - Default
   - TransparentFX

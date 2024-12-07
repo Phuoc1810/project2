@@ -69,13 +69,6 @@ public class BossController : MonoBehaviour
         StartCoroutine(SpawmTiles());
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            TakeDamage();
-        }
-    }
     private IEnumerator SpawmTiles()
     {
         Debug.Log("Starting to spawn tiles...");

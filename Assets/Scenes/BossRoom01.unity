@@ -3795,7 +3795,7 @@ GameObject:
   - component: {fileID: 1286584667}
   m_Layer: 0
   m_Name: The Oracle
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3906,7 +3906,7 @@ MonoBehaviour:
   tileSpawmInterval: 0.5
   numberOfTile: 8
   timeStart: 2.5
-  maxHeal: 200
+  maxHeal: 500
   specialSkill: {fileID: 653742815}
   healSlider: {fileID: 1988837606}
 --- !u!61 &1286584666
@@ -9515,9 +9515,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 200
+  m_MaxValue: 500
   m_WholeNumbers: 0
-  m_Value: 200
+  m_Value: 500
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

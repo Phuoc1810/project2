@@ -13,5 +13,15 @@ public class hitbox : MonoBehaviour
             enemyheath.takedamage(2);
             
         }
+
+        //tan cong boss 
+        if (collision.CompareTag("Boss"))
+        {
+            BossController boss = collision.GetComponent<BossController>();
+            if (boss != null)
+            {
+                boss.TakeDamage(); //Goi ham take damage
+            }
+        }
     }
 }
