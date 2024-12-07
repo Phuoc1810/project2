@@ -42,6 +42,7 @@ public class ExplosiveTile : MonoBehaviour
     public void Initialize(Vector3 spawmPosition)
     {
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
+        Invoke(nameof(ActivateTrigger), 2f);// delay 0.8s truoc khi gay damage
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
 
         
@@ -56,8 +57,17 @@ public class ExplosiveTile : MonoBehaviour
         Destroy(gameObject); //xoa o vuong sau khi phat no
 
     }
+    private void ActivateTrigger()
+    {
+        explosiveCollider.enabled = true; //kich hoat va cham sau khi delay
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //chi kiem tra va cham khi vien gach duoc kich hoat
+        if (!explosiveCollider.enabled)
+        {
+            return;
+        }
         if (collision.CompareTag("Player"))
         {
             var playerStats = collision.GetComponent<playersat>();

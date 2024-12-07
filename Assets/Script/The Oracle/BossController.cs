@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossController : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class BossController : MonoBehaviour
     private int currentHeal; //mau hien tai
     public GameObject specialSkill; //ki nang dac biet
 
+    //tham chieu den heal bar
+    public Slider healSlider;
+
     //tham chieu den sprite nguoi choi
     private playersat playerStart;
 
@@ -28,6 +32,12 @@ public class BossController : MonoBehaviour
     void Start()
     {
         currentHeal = maxHeal; //khoi tao mau cua boss
+
+        if(healSlider != null )
+        {
+            healSlider.maxValue = maxHeal;
+            healSlider.value = currentHeal;
+        }
 
         specialSkill.SetActive(false);
         GameObject player = GameObject.FindWithTag("Player");
@@ -59,7 +69,7 @@ public class BossController : MonoBehaviour
         StartCoroutine(SpawmTiles());
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -110,17 +120,24 @@ public class BossController : MonoBehaviour
         currentHeal -= damage; //giam mau cua boss
         Debug.Log($"Boss current health: {currentHeal}");
 
+        if(healSlider != null)
+        {
+            healSlider.value = currentHeal; //cap nhat gia tri cho thanh mau
+        }
+
         //kich hoat ki nang dac biet khi mau <= 30%
         if(currentHeal <= maxHeal * 0.3 && !isSpecialSkillColdDown && specialSkill != null && !specialSkill.activeSelf)
         {
             StartCoroutine(ActivateSpecialSkill());
-            specialSkill.SetActive(false);
         }
 
         //kiem tra neu mau <= 0
         if(currentHeal <= 0)
         {
+            isAttacking = false;
+            animator.ResetTrigger("Attack1");
             Die();
+            specialSkill.SetActive(false);
         }
     }
 
@@ -133,13 +150,14 @@ public class BossController : MonoBehaviour
         specialSkill.SetActive(false);
 
         isSpecialSkillColdDown = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
         isSpecialSkillColdDown = false;
     }
     //xu li logic khi boss chet
     private void Die()
     {
         isAttacking = false;
+        animator.ResetTrigger("Attack1");
         Debug.Log("boss defeated!");
         StopAllCoroutines(); //dung tat ca cac coroutine dang chay
         //cho doi cho den khi Die hoan thanh
@@ -147,10 +165,13 @@ public class BossController : MonoBehaviour
     }
     private IEnumerator WaitForDeathAnimation()
     {
+        //ngat animation tan cong de tranh xung dot
+        animator.ResetTrigger("Attack1");
         //doi cho den khi aniamtion die hoan thanh
         animator.SetTrigger("Die");
         yield return new WaitForSeconds(6);
+        animator.SetTrigger("die");
         // huy doi tuong 
-        Destroy(gameObject);
+        Destroy(gameObject, 10);
     }
 }
