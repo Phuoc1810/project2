@@ -10,12 +10,17 @@ public class player : MonoBehaviour
     public int combonumber;
     public bool attacking;
     
+    public float rollboost = 2f;
+    public float rolltime;
+    public float Rolltime;
+    bool rollonce = false;
+
 
     public float combotiming;
 
     public float combotempo;
-    [SerializeField] private int rspeed;
-    [SerializeField] private int speed;
+    [SerializeField] private float rspeed;
+    [SerializeField] private float speed;
     private Rigidbody2D rb;
     Animator anim;
     public static player _instance;
@@ -71,8 +76,31 @@ public class player : MonoBehaviour
         //khuyen khich dung rigidbody de di chuyen
         anim.SetFloat("lastmoveX", moveX);
         anim.SetFloat("lastmoveY", moveY);
+
+        if(Input.GetKeyDown(KeyCode.Space) && rolltime <= 0)
+        {
+            anim.SetBool("roll", true);
+            speed += rollboost;
+            rolltime = Rolltime;
+            rollonce = true;
+           
+        }
+
+        if(rolltime<=0&&rollonce==true)
+        {
+            anim.SetBool("roll", false);
+            speed -= rollboost;
+            rollonce = false;
+            
+        }
+
+        else
+        {
+            rolltime -= Time.deltaTime;
+        }
         if(Input.GetKey(KeyCode.LeftShift))
         rb.velocity = new Vector2(moveX, moveY) * rspeed;
+
         else
           rb.velocity = new Vector2(moveX, moveY) * speed;
         
