@@ -43,7 +43,7 @@ public class ExplosiveTile : MonoBehaviour
     public void Initialize(Vector3 spawmPosition)
     {
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
-        Invoke(nameof(ActivateTrigger), 0.32f);// delay 0.32s truoc khi gay damage
+        Invoke(nameof(ActivateTrigger), 0.38f);// delay ...s truoc khi gay damage
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
 
         

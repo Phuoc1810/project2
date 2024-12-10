@@ -25,14 +25,14 @@ namespace Pathfinding {
 			// frame as the destination is used for debugging and may be used for other things by other
 			// scripts as well. So it makes sense that it is up to date every frame.
 			if (ai != null) ai.onSearchPath += Update;
-            //StartCoroutine(FindPlayerAfterDelay());
+            StartCoroutine(FindPlayerAfterDelay());
         }
 		
 		IEnumerator FindPlayerAfterDelay()
 		{
 			yield return new WaitForSeconds(0.1f); // doi Player duoc tao trong scene
 
-			GameObject player = GameObject.FindGameObjectWithTag("Player");
+			GameObject player = GameObject.FindWithTag("Player");
 			if (player != null)
 			{
 				target = player.transform; //gan target la Transform cua player
