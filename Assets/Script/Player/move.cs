@@ -36,7 +36,7 @@ public class player : MonoBehaviour
         combonumber = 2;
         
         combo = 1;
-        combotiming = 1f;
+        combotiming = 2f;
         combotempo = combotiming;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -63,6 +63,8 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Comboskill2();
+        Comboskill1();
         Combo();
         var moveX = Input.GetAxis("Horizontal");
         var moveY = Input.GetAxis("Vertical");
@@ -109,7 +111,7 @@ public class player : MonoBehaviour
             combotempo = combotiming;
         }
         //neu chua het thoi gian de kich hoat combo
-        else if (Input.GetKeyDown(KeyCode.J) && combotempo > 0 && combotempo > 0.3)
+        else if (Input.GetKeyDown(KeyCode.J) && combotempo > 0 )
         {
             // bat trang thai tan cong
             attacking = true;
@@ -125,6 +127,100 @@ public class player : MonoBehaviour
             //show ra animation tan cong
            
             anim.SetTrigger("attack" + combo);
+            //thiet lap lai gia tri combotiming
+            combotempo = combotiming;
+        }
+        //neu nhu k co lenh tan cong nao dc thuc hien thi trang thai tan cong tat
+        else if (combotempo < 0 && !Input.GetKeyDown(KeyCode.J))
+        {
+            attacking = false;
+        }
+        //neu combo tempo <0 thi reset gia tri combo ve 1 de thuc hien combo
+        if (combotempo < 0)
+        {
+            combo = 1;
+        }
+
+    }
+    public void Comboskill1()
+    {
+        //giam combo tempo theo thoi gian khung hinh time.deltatime;
+        combotempo -= Time.deltaTime;
+        //neu co lenh tan cong thi moi thuc hien combo
+        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0)
+        {
+            //bat trang thai tan cong
+            attacking = true;
+            //kich hoat animation tan conng
+
+            anim.SetTrigger("blood" + combo);
+            //combotempo=combotiming
+            combotempo = combotiming;
+        }
+        //neu chua het thoi gian de kich hoat combo
+        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 )
+        {
+            // bat trang thai tan cong
+            attacking = true;
+
+            //tang gia tri bien dem compo ktr xem vuot bien dem chua
+            combo += 1;
+
+            //neu da dat gioi hang combo thi set combonumber=1
+            if (combo > combonumber)
+            {
+                combo = 1;
+            }
+            //show ra animation tan cong
+
+            anim.SetTrigger("blood" + combo);
+            //thiet lap lai gia tri combotiming
+            combotempo = combotiming;
+        }
+        //neu nhu k co lenh tan cong nao dc thuc hien thi trang thai tan cong tat
+        else if (combotempo < 0 && !Input.GetKeyDown(KeyCode.J))
+        {
+            attacking = false;
+        }
+        //neu combo tempo <0 thi reset gia tri combo ve 1 de thuc hien combo
+        if (combotempo < 0)
+        {
+            combo = 1;
+        }
+
+    }
+    public void Comboskill2()
+    {
+        //giam combo tempo theo thoi gian khung hinh time.deltatime;
+        combotempo -= Time.deltaTime;
+        //neu co lenh tan cong thi moi thuc hien combo
+        if (Input.GetKeyDown(KeyCode.L) && combotempo < 0)
+        {
+            //bat trang thai tan cong
+            attacking = true;
+            //kich hoat animation tan conng
+
+            anim.SetTrigger("fire" + combo);
+            //combotempo=combotiming
+            combotempo = combotiming;
+        }
+        //neu chua het thoi gian de kich hoat combo
+        else if (Input.GetKeyDown(KeyCode.L) && combotempo > 0 )
+        {
+            // bat trang thai tan cong
+            attacking = true;
+
+            //tang gia tri bien dem compo ktr xem vuot bien dem chua
+            combo += 1;
+
+            //neu da dat gioi hang combo thi set combonumber=1
+            if (combo > combonumber)
+            {
+                combo = 1;
+            }
+            //show ra animation tan cong
+
+            anim.SetTrigger("fire" + combo);
             //thiet lap lai gia tri combotiming
             combotempo = combotiming;
         }

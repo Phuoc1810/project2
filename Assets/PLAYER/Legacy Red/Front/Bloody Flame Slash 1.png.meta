@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 33
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6060606, y: 0.7647059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c6808dcbfbf024998676f5c40ff563
+      internalID: -683000581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5588235, y: 0.65625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b7c086f7247746839f9ff3b056b0e
+      internalID: -853868045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: 0.62068963, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb092a7a5e94424dab860cbfe62e90f
+      internalID: -347435860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 27
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7037037, y: 0.6388889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04ef2c62176d1b42985434ab13055d7
+      internalID: 2105654930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 7
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.7307693, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab565096d7342a644b79e29e1a7ed715
+      internalID: 877038250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody Flame Slash 1_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818d68e3e6669bf489e99deaa8fbdd0f
+      internalID: -1354171772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bloody Flame Slash 1_0: -683000581
+      Bloody Flame Slash 1_1: -853868045
+      Bloody Flame Slash 1_2: -347435860
+      Bloody Flame Slash 1_3: 2105654930
+      Bloody Flame Slash 1_4: 877038250
+      Bloody Flame Slash 1_5: -1354171772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
