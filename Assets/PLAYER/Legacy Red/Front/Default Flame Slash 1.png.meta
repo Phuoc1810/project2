@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Default Flame Slash 1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 33
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5757576, y: 0.7647059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad81c990c2eec8479a79ef0931f89b2
+      internalID: 547792434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Flame Slash 1_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.65625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eed86080b17ff346b5e12ed1f3c622c
+      internalID: 1420624907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Flame Slash 1_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5862069, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f0c25fd4d94264cb6b2fa8f7d615e4
+      internalID: 337080789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Flame Slash 1_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 27
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f38968a2305f4c45b02c838a68406f7
+      internalID: -1443287547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Flame Slash 1_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 7
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.7307693, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725345f00a93eee41b1cb8bb5cffdff2
+      internalID: 1286101651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Flame Slash 1_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 16
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee713b4de2e03a14fb9ea4777feae6f9
+      internalID: -1345775028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Default Flame Slash 1_0: 547792434
+      Default Flame Slash 1_1: 1420624907
+      Default Flame Slash 1_2: 337080789
+      Default Flame Slash 1_3: -1443287547
+      Default Flame Slash 1_4: 1286101651
+      Default Flame Slash 1_5: -1345775028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
