@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Default Slash 1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.31428573, y: 0.29411766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2cb588cc36ea74bbf89cff134fec64
+      internalID: 247165064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Slash 1_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.32258064, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eac54f9f6a7aa489e6ea84ed4d5ff0
+      internalID: -511062150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Slash 1_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 16
+        width: 32
+        height: 20
+      alignment: 9
+      pivot: {x: 0.28125, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7084b9e659228df4886daad06394bf47
+      internalID: -304021424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Slash 1_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 16
+        width: 18
+        height: 21
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.61904764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b8207a34b15d4e8e57401b93d97a3
+      internalID: -1375768411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Slash 1_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 16
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.31578946, y: 0.65000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c499d764648f741959fa535c877902
+      internalID: -873669548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Slash 1_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 16
+        width: 18
+        height: 21
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7559d2b11149c5c4db41307bf34669f8
+      internalID: -361014916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Default Slash 1_0: 247165064
+      Default Slash 1_1: -511062150
+      Default Slash 1_2: -304021424
+      Default Slash 1_3: -1375768411
+      Default Slash 1_4: -873669548
+      Default Slash 1_5: -361014916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
