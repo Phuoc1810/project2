@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01b0e90ea96c47e4c9341452f9dd9e33
+guid: edbd72262701e33408dfba6c714365b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,8 +102,8 @@ TextureImporter:
         serializedVersion: 2
         x: 26
         y: 16
-        width: 13
-        height: 22
+        width: 12
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fef3db7d0a6c884ba3d72212b6432d5
-      internalID: -214053515
+      spriteID: b733924cb8a27914687edcfe579e9c1d
+      internalID: 1657987535
       vertices: []
       indices: 
       edges: []
@@ -124,7 +124,7 @@ TextureImporter:
         x: 90
         y: 16
         width: 13
-        height: 20
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7679afdda8b1ee4281d7c08ec5d5cd6
-      internalID: 1352168070
+      spriteID: 69cac2e3399084b4cac35208f5a1ab28
+      internalID: -29155042
       vertices: []
       indices: 
       edges: []
@@ -145,7 +145,7 @@ TextureImporter:
         x: 154
         y: 16
         width: 13
-        height: 18
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c5e6ab25108e3047a4fa49d1e2c1a9a
-      internalID: 1468479398
+      spriteID: f7bcb9dfa9d32d743aa2024f2e37c2e9
+      internalID: 1815188252
       vertices: []
       indices: 
       edges: []
@@ -165,8 +165,8 @@ TextureImporter:
         serializedVersion: 2
         x: 218
         y: 16
-        width: 14
-        height: 15
+        width: 13
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8b21ffe1ff2944395fcf3cc0ca167e
-      internalID: 1787696019
+      spriteID: 22c7862938d26c146ad11b9721d14161
+      internalID: -164649099
       vertices: []
       indices: 
       edges: []
@@ -186,8 +186,8 @@ TextureImporter:
         serializedVersion: 2
         x: 282
         y: 16
-        width: 14
-        height: 15
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bb781cd74e2d504396987936afe2855
-      internalID: -2013033448
+      spriteID: 5714e508866686e4ca6d9711c94bc33c
+      internalID: 1134144073
       vertices: []
       indices: 
       edges: []
@@ -205,10 +205,10 @@ TextureImporter:
       name: Roll_5
       rect:
         serializedVersion: 2
-        x: 346
+        x: 345
         y: 16
-        width: 12
-        height: 16
+        width: 15
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dcb126283e5cb541aa38ec450352a9e
-      internalID: 879496541
+      spriteID: 33e81dbfc31a78a469bb861dada6e268
+      internalID: 363121599
       vertices: []
       indices: 
       edges: []
@@ -229,7 +229,7 @@ TextureImporter:
         x: 409
         y: 16
         width: 13
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5f1ca5d85f83c44689013c266a280b4
-      internalID: -1769324257
+      spriteID: 209771f5524060f4f89b7523626e20b8
+      internalID: -58173654
       vertices: []
       indices: 
       edges: []
@@ -247,10 +247,10 @@ TextureImporter:
       name: Roll_7
       rect:
         serializedVersion: 2
-        x: 473
+        x: 474
         y: 16
         width: 13
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c908ba2a6879974ab1ab6a5c82c28b7
-      internalID: -578335398
+      spriteID: b9265a16bb1df4742842fb2848df918c
+      internalID: -1391924326
       vertices: []
       indices: 
       edges: []
@@ -268,10 +268,10 @@ TextureImporter:
       name: Roll_8
       rect:
         serializedVersion: 2
-        x: 538
+        x: 537
         y: 16
-        width: 13
-        height: 18
+        width: 15
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40659d9c722901e428fe9f7d79bbeefb
-      internalID: 496886886
+      spriteID: 071de6481f7780d43802ff57512047e5
+      internalID: 309638115
       vertices: []
       indices: 
       edges: []
@@ -292,7 +292,7 @@ TextureImporter:
         x: 602
         y: 16
         width: 13
-        height: 23
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9226c1f3a7bcf847a7dae9affd4a332
-      internalID: -1890944725
+      spriteID: e3c6b085be91cd04ca57991d7ea3deb1
+      internalID: -1081540378
       vertices: []
       indices: 
       edges: []
@@ -317,16 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roll_0: -214053515
-      Roll_1: 1352168070
-      Roll_2: 1468479398
-      Roll_3: 1787696019
-      Roll_4: -2013033448
-      Roll_5: 879496541
-      Roll_6: -1769324257
-      Roll_7: -578335398
-      Roll_8: 496886886
-      Roll_9: -1890944725
+      Roll_0: 1657987535
+      Roll_1: -29155042
+      Roll_2: 1815188252
+      Roll_3: -164649099
+      Roll_4: 1134144073
+      Roll_5: 363121599
+      Roll_6: -58173654
+      Roll_7: -1391924326
+      Roll_8: 309638115
+      Roll_9: -1081540378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

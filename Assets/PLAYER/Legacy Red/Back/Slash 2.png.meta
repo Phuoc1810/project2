@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slash 2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 16
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.5652174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee9d35c72e7bba4aba915808222f175
+      internalID: -839257524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash 2_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 16
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0.44117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9d66d76a58d9144ab7932b085de4f6
+      internalID: 590025035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash 2_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 16
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.67857146, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dbc54e98dfcdb4984967375ea4d2fa
+      internalID: 1505654643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash 2_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 16
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6538462, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ced58c627cdf4d8713c670d443587
+      internalID: 1472983663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash 2_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 16
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9777a86a51db7f41bfdd72afb198b9e
+      internalID: -1725326655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash 2_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 16
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc22b6302e8dc1a43b53c11f6cacacb7
+      internalID: -22354688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slash 2_0: -839257524
+      Slash 2_1: 590025035
+      Slash 2_2: 1505654643
+      Slash 2_3: 1472983663
+      Slash 2_4: -1725326655
+      Slash 2_5: -22354688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
