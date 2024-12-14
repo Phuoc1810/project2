@@ -1587,6 +1587,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hyper Light Drifter - The Hierophant JerkPope 2_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 625
+        width: 47
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3970588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5644fec69fac71c4cb05fc836ba30077
+      internalID: 2071343413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

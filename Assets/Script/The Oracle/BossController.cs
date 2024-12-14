@@ -113,6 +113,8 @@ public class BossController : MonoBehaviour
         currentHeal -= damage; //giam mau cua boss
         Debug.Log($"Boss current health: {currentHeal}");
 
+        animator.SetTrigger("Hurts");
+
         if(healSlider != null)
         {
             healSlider.value = currentHeal; //cap nhat gia tri cho thanh mau
