@@ -113,8 +113,8 @@ public class BossController : MonoBehaviour
         currentHeal -= damage; //giam mau cua boss
         Debug.Log($"Boss current health: {currentHeal}");
 
-        animator.SetTrigger("Hurts");
-
+        // doi mau Sprite Renderer thanh do
+        StartCoroutine(ChangeColorWhenDamaged());
         if(healSlider != null)
         {
             healSlider.value = currentHeal; //cap nhat gia tri cho thanh mau
@@ -133,6 +133,20 @@ public class BossController : MonoBehaviour
             animator.ResetTrigger("Attack1");
             Die();
             specialSkill.SetActive(false);
+        }
+
+    }
+
+    //couroutine de doi mau tam thoi khi nhan sat thuong
+    private IEnumerator ChangeColorWhenDamaged()
+    {
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if(spriteRenderer != null )
+        {
+            spriteRenderer.color = Color.red; //chuyen sang mau do
+            yield return new WaitForSeconds(0.2f); //thoi gian giu mau do
+            spriteRenderer.color = Color.white;//tra ve mau goc
         }
     }
 

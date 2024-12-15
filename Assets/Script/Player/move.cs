@@ -46,7 +46,7 @@ public class player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        panel_UIPlayer.SetActive(false);
+        panel_UIPlayer.SetActive(true);
         Canvas_HealBar.SetActive(true);
         //singleton: 1 chay xuyen suot 1 game;
         // khong xoa nv khi chuyen scene
@@ -108,19 +108,6 @@ public class player : MonoBehaviour
         {
             anim.SetFloat("moveX", moveX);
             anim.SetFloat("moveY", moveY);
-        }
-       
-       if(Input.GetKeyDown (KeyCode.E))
-        {
-            panel_UIPlayer.SetActive(!panel_UIPlayer.activeSelf);
-            if(panel_UIPlayer.activeSelf)
-            {
-                Time.timeScale = 0;
-            }
-            else
-            {
-                Time.timeScale = 1;
-            }
         }
     }
     public void Combo()

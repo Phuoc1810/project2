@@ -45,8 +45,6 @@ public class ExplosiveTile : MonoBehaviour
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
         Invoke(nameof(ActivateTrigger), 0.38f);// delay ...s truoc khi gay damage
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
-
-        
     }
     private void Explode()
     {
