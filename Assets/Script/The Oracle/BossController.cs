@@ -178,7 +178,7 @@ public class BossController : MonoBehaviour
         animator.ResetTrigger("Attack1");
         //doi cho den khi aniamtion die hoan thanh
         animator.SetTrigger("Die");
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(3);
         animator.SetTrigger("die");
         // huy doi tuong 
         Destroy(gameObject, 10);
