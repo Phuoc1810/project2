@@ -9,9 +9,13 @@ public class ExplosiveTile : MonoBehaviour
 
     //collider de kich hoat khi nguoi choi di vao pham vi
     private Collider2D explosiveCollider;
+<<<<<<< HEAD
     //reference den camerashake
     private CameraShake cameraShake;
     private Cinemachine.CinemachineVirtualCamera virtualCamera;
+=======
+
+>>>>>>> Tung
     void Start()
     {
         explosiveCollider = GetComponent<Collider2D>();
@@ -46,6 +50,8 @@ public class ExplosiveTile : MonoBehaviour
         Invoke(nameof(ActivateTrigger), 0.38f);// delay ...s truoc khi gay damage
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
     }
+
+    //xu li vu no 
     private void Explode()
     {
         //goi hieu ung rung lac khi phat no
@@ -54,7 +60,6 @@ public class ExplosiveTile : MonoBehaviour
             cameraShake.Shake();
         }
         Destroy(gameObject); //xoa o vuong sau khi phat no
-
     }
     private void ActivateTrigger()
     {

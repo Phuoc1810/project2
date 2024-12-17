@@ -61,14 +61,20 @@ TagManager:
   - name: Grass
     uniqueID: 2504138011
     locked: 0
+<<<<<<< HEAD
   - name: Player
     uniqueID: 1535054025
     locked: 0
   - name: Boss
     uniqueID: 794164259
     locked: 0
+=======
+>>>>>>> Tung
   - name: Wall
     uniqueID: 3433668935
+    locked: 0
+  - name: Player
+    uniqueID: 1535054025
     locked: 0
   - name: tree
     uniqueID: 210901455
