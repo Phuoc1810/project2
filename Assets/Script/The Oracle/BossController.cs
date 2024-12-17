@@ -111,6 +111,8 @@ public class BossController : MonoBehaviour
         //tinh sat thuong dua tren chi so choi cua nguoi choi
         int damage = (int)playerStart.attack;
         currentHeal -= damage; //giam mau cua boss
+
+        StartCoroutine(ChangeColorWhenDamaged());
         Debug.Log($"Boss current health: {currentHeal}");
 
         if(healSlider != null)
@@ -131,6 +133,19 @@ public class BossController : MonoBehaviour
             animator.ResetTrigger("Attack1");
             Die();
             specialSkill.SetActive(false);
+        }
+    }
+
+    //couroutine de doi mau tam thoi khi nhan sat thuong
+    private IEnumerator ChangeColorWhenDamaged()
+    {
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.red; //chuyen sang mau do
+            yield return new WaitForSeconds(0.2f); //thoi gian giu mau do
+            spriteRenderer.color = Color.white;//tra ve mau goc
         }
     }
 
@@ -162,7 +177,7 @@ public class BossController : MonoBehaviour
         animator.ResetTrigger("Attack1");
         //doi cho den khi aniamtion die hoan thanh
         animator.SetTrigger("Die");
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(3);
         animator.SetTrigger("die");
         // huy doi tuong 
         Destroy(gameObject, 10);

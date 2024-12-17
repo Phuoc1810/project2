@@ -21,6 +21,8 @@ public class BossRoomDoor : MonoBehaviour
                 }
 
                 PlayerBossSpawmManager.Instance.spawm_Point_Name = spawm_Point_Name;
+                //reset lai key
+                KeyManager.instance.ResetKey();
                 //neu du chia khoa chuyen den phong boss
                 SceneManager.LoadScene(bossRoomSceneName);
             }
