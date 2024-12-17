@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class BossController : MonoBehaviour
 {
-    public GameObject explosiveTilePerfab; // tham chieu den vien gach
     public Animator animator;
-    public float tileSpawmInterval = 0.5f; // khoan thoi gian giua cac lan spawm o vuong
-    public int numberOfTile = 8; // so o vuong xuat hien sau moi dot tan cong
+    public TitleManager tileManager; //quan li vien gach
     private Transform playerTransform; // vi tri cua nguoi choi
     public float timeStart = 2.5f; // thoi gian de boss bat dau tan cong
-    private Vector3 currentDirection; // huong di chuyen cua chuoi gach
+    public float spawmDelay = 0f; //thoi gian cho truoc khi spawm gach
 
     //quan li chi so boss
     public int maxHeal = 200;
@@ -66,11 +64,16 @@ public class BossController : MonoBehaviour
     private IEnumerator BossStart()
     {
         yield return new WaitForSeconds(timeStart);
+<<<<<<< HEAD
         StartCoroutine(SpawmTiles());
+=======
+        StartCoroutine(BossAttackRoutine());
+>>>>>>> Tung
     }
 
-    private IEnumerator SpawmTiles()
+    private IEnumerator BossAttackRoutine()
     {
+<<<<<<< HEAD
         Debug.Log("Starting to spawn tiles...");
 
         while (isAttacking)
@@ -183,4 +186,23 @@ public class BossController : MonoBehaviour
         // huy doi tuong 
         Destroy(gameObject, 10);
     }
+=======
+        yield return new WaitForSeconds(timeStart);
+
+        while (true)
+        {
+            yield return new WaitForSeconds(spawmDelay);
+            animator.SetTrigger("Attack1");
+
+            //spawm xung quanh nguoi choi
+            if (tileManager != null && playerTransform != null)
+            {
+                tileManager.SpawnTiles(transform.position, playerTransform.position);
+            }
+            animator.SetTrigger("Indle");
+
+            yield return new WaitForSeconds(3);
+        }
+    }
+>>>>>>> Tung
 }

@@ -545,12 +545,18 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1575518520}
   m_Damping: 0.5
   m_MaxWindowSize: -1
+<<<<<<< HEAD
 --- !u!114 &155539913
 MonoBehaviour:
+=======
+--- !u!1 &424018331
+GameObject:
+>>>>>>> Tung
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 155539908}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -560,6 +566,20 @@ MonoBehaviour:
   shakeDuration: 1.5
   shakeMagnitude: 3
 --- !u!4 &160090790 stripped
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424018333}
+  - component: {fileID: 424018334}
+  m_Layer: 0
+  m_Name: BossManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424018333
+>>>>>>> Tung
 Transform:
   m_CorrespondingSourceObject: {fileID: 7220923759953622198, guid: 0600fce6ceb74ae459ce1ef517e9524a,
     type: 3}
@@ -690,6 +710,7 @@ MonoBehaviour:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 653742816}
@@ -776,11 +797,22 @@ Transform:
   m_PrefabInstance: {fileID: 179846010}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &277470536
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2, y: 0.9, z: 1116.1774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &424018334
+>>>>>>> Tung
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 179846011}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -910,6 +942,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1381810666}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_GameObject: {fileID: 424018331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6920ec39b41f542b0a7694fa38a4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosiveTilePerfab: {fileID: 8293801626626920611, guid: 0600fce6ceb74ae459ce1ef517e9524a,
+    type: 3}
+  numberOfTiles: 8
+  tileSpacing: 8
+>>>>>>> Tung
 --- !u!1 &448676550
 GameObject:
   m_ObjectHideFlags: 3
@@ -2714,7 +2758,11 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -861298361
+<<<<<<< HEAD
   m_SortingLayer: 4
+=======
+  m_SortingLayer: 2
+>>>>>>> Tung
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -4257,8 +4305,11 @@ GameObject:
   - component: {fileID: 1286584663}
   - component: {fileID: 1286584662}
   - component: {fileID: 1286584665}
+<<<<<<< HEAD
   - component: {fileID: 1286584666}
   - component: {fileID: 1286584667}
+=======
+>>>>>>> Tung
   m_Layer: 0
   m_Name: The Oracle
   m_TagString: Boss
@@ -4325,7 +4376,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: 794164259
+=======
+  m_SortingLayerID: 1535054025
+>>>>>>> Tung
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -506499338, guid: ebfe1abbdbb99d5448a815f053e0e794, type: 3}
@@ -4366,6 +4421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd746ca976b124343b42c03da71ee50f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   explosiveTilePerfab: {fileID: 8293801626626920611, guid: 0600fce6ceb74ae459ce1ef517e9524a,
     type: 3}
   animator: {fileID: 1286584662}
@@ -4667,6 +4723,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wartingDuration: 1.5
   damage: 20
+=======
+  animator: {fileID: 1286584662}
+  tileManager: {fileID: 424018334}
+  timeStart: 2.5
+  spawmDelay: 0
+>>>>>>> Tung
 --- !u!1 &1358194927
 GameObject:
   m_ObjectHideFlags: 0
@@ -4745,7 +4807,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1535054025
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 209004535, guid: 6525d967591b3ae43a95aa1863c2789f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
