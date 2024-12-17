@@ -9,6 +9,7 @@ public class KeyManager : MonoBehaviour
 
     public int totalKeys = 0; //tong so chia khoa thu thap
     public Text keysTexts; //hien thi so luong key cho tung vung dat
+    public GameObject bossPanel; //tham chieu den panel thong bao boss
 
     private void Awake()
     {
@@ -27,6 +28,13 @@ public class KeyManager : MonoBehaviour
     {
         totalKeys++;
         UpdateUI();
+
+        //kiem tra du chia khoa
+        if(HasAllKeys() && bossPanel != null)
+        {
+            bossPanel.SetActive(true);
+            StartCoroutine(HidePanelBoss()); 
+        }
     }
     //cap nhat text UI hien thi so chia khoa
     public void UpdateUI()
@@ -45,5 +53,17 @@ public class KeyManager : MonoBehaviour
     {
         keysTexts = newkeyTexts;
         UpdateUI();
+    }
+
+    public void RessetKeys()
+    {
+        totalKeys = 0; //dat lai chia
+        UpdateUI(); //cap nhat UI
+    }
+
+    private IEnumerator HidePanelBoss()
+    {
+        yield return new WaitForSeconds(2.5f);
+        bossPanel.SetActive(false);
     }
 }
