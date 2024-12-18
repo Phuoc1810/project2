@@ -29,6 +29,9 @@ public class BossController : MonoBehaviour
     private bool isSpecialSkillColdDown = false;
     //quan li trang thai tan cong
     private bool isAttacking = true;
+
+    //effect boss
+    public AudioClip effect;
     void Start()
     {
         currentHeal = maxHeal; //khoi tao mau cua boss
