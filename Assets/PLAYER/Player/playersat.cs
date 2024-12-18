@@ -21,8 +21,10 @@ public class playersat : MonoBehaviour
     // tg hoi phuc mana va hp
     public float hprecoverytime = 5f;
     public float mprecoverytime = 1f;
+    public Animator anim;
     void Start()
     {
+        anim = GetComponent<Animator>();
         nextexp = new float[10];
         nextexp[0] = 100;
         for (int i = 1; i < 10; i++)
@@ -76,6 +78,7 @@ public class playersat : MonoBehaviour
     }
     public void hurtss()
     {
+        anim.SetTrigger("hurt");
         var firedamge = 20;
         var playerdef = player._instance.GetComponent<playersat>().defent;//chi so phong thu cua player
         var damage = firedamge - playerdef;//can bang game
