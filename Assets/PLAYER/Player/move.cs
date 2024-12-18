@@ -161,9 +161,19 @@ public class player : MonoBehaviour
     {
         //giam combo tempo theo thoi gian khung hinh time.deltatime;
         combotempo -= Time.deltaTime;
+
+        //lay sprite playersat de truy cap chi so mana
+        playersat stats = GetComponent<playersat>();
+        if(stats == null) return;
+
+        float manaCost = 20; //luong mana tieu ton cho ki nang 1
+
         //neu co lenh tan cong thi moi thuc hien combo
-        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0)
+        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0 && stats.currentmp >= manaCost) //kiem tra va kich hoat ki nang neu co du mana
         {
+            //tru mana
+            stats.currentmp -= manaCost;
+
             //bat trang thai tan cong
             attacking = true;
             //kich hoat animation tan conng
@@ -173,8 +183,10 @@ public class player : MonoBehaviour
             combotempo = combotiming;
         }
         //neu chua het thoi gian de kich hoat combo
-        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 )
+        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currentmp >= manaCost)
         {
+            //tru mana
+            stats.currentmp -= manaCost;
             // bat trang thai tan cong
             attacking = true;
 
@@ -208,9 +220,16 @@ public class player : MonoBehaviour
     {
         //giam combo tempo theo thoi gian khung hinh time.deltatime;
         combotempo -= Time.deltaTime;
+
+        //lay sprite playersat de truy cap chi so mana
+        playersat starts = GetComponent<playersat>();
+
+        float manaCost = 30;
         //neu co lenh tan cong thi moi thuc hien combo
-        if (Input.GetKeyDown(KeyCode.L) && combotempo < 0)
+        if (Input.GetKeyDown(KeyCode.L) && combotempo < 0 && starts.currentmp >= manaCost)
         {
+            //tru mana
+            starts.currentmp -= manaCost;
             //bat trang thai tan cong
             attacking = true;
             //kich hoat animation tan conng
@@ -220,8 +239,10 @@ public class player : MonoBehaviour
             combotempo = combotiming;
         }
         //neu chua het thoi gian de kich hoat combo
-        else if (Input.GetKeyDown(KeyCode.L) && combotempo > 0 )
+        else if (Input.GetKeyDown(KeyCode.L) && combotempo > 0 && starts.currentmp >= manaCost)
         {
+            //tru mana
+            starts.currentmp -= manaCost;
             // bat trang thai tan cong
             attacking = true;
 

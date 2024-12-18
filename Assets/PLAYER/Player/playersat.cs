@@ -49,7 +49,7 @@ public class playersat : MonoBehaviour
             if (mprecoverytime <= 0)
             {
                 currentmp += 1;
-                hprecoverytime = 1f;
+                mprecoverytime = 1f;
             }
         }
 
