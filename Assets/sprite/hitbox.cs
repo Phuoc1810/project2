@@ -13,6 +13,13 @@ public class hitbox : MonoBehaviour
             enemyheath.takedamage(2);
             
         }
+        else if (collision.CompareTag("enemy2"))
+        {
+            enemynoastar enemyheath;
+            enemyheath = collision.gameObject.GetComponent<enemynoastar>();
+            enemyheath.takedamage(2);
+
+        }
 
         //tan cong boss 
         if (collision.CompareTag("Boss"))

@@ -9,6 +9,7 @@ TagManager:
   - Door
   - pointToBoss
   - Boss
+  - enemy2
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - player
   - BackGround
   - rock
-  - 
+  - enemy2
   - 
   - 
   - 
