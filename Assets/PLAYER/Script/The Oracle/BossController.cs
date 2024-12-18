@@ -30,8 +30,8 @@ public class BossController : MonoBehaviour
     //quan li trang thai tan cong
     private bool isAttacking = true;
 
-    //effect boss
-    public AudioClip effect;
+    //tham chieu den Audio Clip
+    public AudioClip attackSound;
     void Start()
     {
         currentHeal = maxHeal; //khoi tao mau cua boss
@@ -69,6 +69,7 @@ public class BossController : MonoBehaviour
     private IEnumerator BossStart()
     {
         yield return new WaitForSeconds(timeStart);
+        //goi effect boss
         StartCoroutine(SpawmTiles());
     }
 
@@ -111,6 +112,8 @@ public class BossController : MonoBehaviour
     public void TakeDamage()
     {
         if (playerStart == null) return; // dam bao playerStarts khong null
+        //goi Audio clip
+        AudioManager.instance.PlayOneShotAudio(attackSound);
         //tinh sat thuong dua tren chi so choi cua nguoi choi
         int damage = (int)playerStart.attack;
         currentHeal -= damage; //giam mau cua boss

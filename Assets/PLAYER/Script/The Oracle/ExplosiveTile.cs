@@ -12,6 +12,9 @@ public class ExplosiveTile : MonoBehaviour
     //reference den camerashake
     private CameraShake cameraShake;
     private Cinemachine.CinemachineVirtualCamera virtualCamera;
+
+    //tham chieu audio clip
+    public AudioClip effectClip;
     void Start()
     {
         explosiveCollider = GetComponent<Collider2D>();
@@ -44,6 +47,7 @@ public class ExplosiveTile : MonoBehaviour
     {
         transform.position = spawmPosition; //dat o vuong tai vi tri spawm
         Invoke(nameof(ActivateTrigger), 0.32f);// delay 0.32s truoc khi gay damage
+        AudioManager.instance.PlayOneShotAudio(effectClip); //goi effect
         Invoke(nameof(Explode), wartingDuration); //hen gio phat no
 
         
