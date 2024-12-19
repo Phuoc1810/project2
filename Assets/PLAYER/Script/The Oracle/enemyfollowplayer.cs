@@ -9,8 +9,10 @@ public class NewBehaviourScript : MonoBehaviour
     public int count=0;
     public Transform player;
     public Rigidbody rb;
+    public Animator anim;
     private void Start()
     {
+        anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
     private void Update()
@@ -24,7 +26,12 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 lineOfSite *= 2;
             }
+            anim.SetTrigger("walk");
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+        }
+        else
+        {
+            anim.SetTrigger("indel");
         }
       
     }
