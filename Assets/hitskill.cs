@@ -13,7 +13,13 @@ public class hitskill : MonoBehaviour
             enemyheath.takedamage(4);
 
         }
+        else if (collision.CompareTag("enemy2"))
+        {
+            enemynoastar enemyheath;
+            enemyheath = collision.gameObject.GetComponent<enemynoastar>();
+            enemyheath.takedamage(4);
 
+        }
         //tan cong boss 
         if (collision.CompareTag("Boss"))
         {
