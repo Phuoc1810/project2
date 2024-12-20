@@ -95,7 +95,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bat-IdleFly_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a6b963fa6d3a14db42a493c33239e0
+      internalID: -1865917287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 20
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b7c4478fa15f64396d5b737b0e4324
+      internalID: -258533160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd440dd4c8f1fd24787a5f9646595b90
+      internalID: 1050520223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 14
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571edbb4d74c78d45b5a72fffd9bec00
+      internalID: 1046600010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 18
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b3d46e324881f4ea6302b89ed52aad
+      internalID: 1270978405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 23
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc91022858e654185959231d455d2e
+      internalID: -1863008847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 22
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4af679faed70224a8ea91a78dfca2c8
+      internalID: -278628719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 24
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d5fd6935052b04aa8a70e632ff3492
+      internalID: -1323923321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-IdleFly_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 29
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa72924b48c6334dbb53e1f5ce90f9a
+      internalID: 882570072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +295,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bat-IdleFly_0: -1865917287
+      Bat-IdleFly_1: -258533160
+      Bat-IdleFly_2: 1050520223
+      Bat-IdleFly_3: 1046600010
+      Bat-IdleFly_4: 1270978405
+      Bat-IdleFly_5: -1863008847
+      Bat-IdleFly_6: -278628719
+      Bat-IdleFly_7: -1323923321
+      Bat-IdleFly_8: 882570072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
