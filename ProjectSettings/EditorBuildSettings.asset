@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/PLAYER/Script/Scenes/Remake/Map01.unity
     guid: 6984f7f5f9472e444a31f149d65c9f3f
   - enabled: 1
+    path: Assets/PLAYER/Script/Scenes/Remake/Map02.unity
+    guid: b3fd1c2b14b8c7049911bcbe69d3b2a8
+  - enabled: 1
     path: Assets/PLAYER/Script/Scenes/map 2.unity
     guid: eb9f7953f802c41459088502d4c21555
   - enabled: 1

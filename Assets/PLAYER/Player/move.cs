@@ -166,13 +166,13 @@ public class player : MonoBehaviour
         playersat stats = GetComponent<playersat>();
         if(stats == null) return;
 
-        float manaCost = 20; //luong mana tieu ton cho ki nang 1
+        float healCost = 5; //luong hp tieu ton cho ki nang 1
 
         //neu co lenh tan cong thi moi thuc hien combo
-        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0 && stats.currentmp >= manaCost) //kiem tra va kich hoat ki nang neu co du mana
+        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0 && stats.currenthp >= healCost) //kiem tra va kich hoat ki nang neu co du mana
         {
-            //tru mana
-            stats.currentmp -= manaCost;
+            //tru hp
+            stats.currenthp -= healCost;
 
             //bat trang thai tan cong
             attacking = true;
@@ -183,10 +183,10 @@ public class player : MonoBehaviour
             combotempo = combotiming;
         }
         //neu chua het thoi gian de kich hoat combo
-        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currentmp >= manaCost)
+        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currenthp >= healCost)
         {
-            //tru mana
-            stats.currentmp -= manaCost;
+            //tru hp
+            stats.currenthp -= healCost;
             // bat trang thai tan cong
             attacking = true;
 
@@ -224,7 +224,7 @@ public class player : MonoBehaviour
         //lay sprite playersat de truy cap chi so mana
         playersat starts = GetComponent<playersat>();
 
-        float manaCost = 30;
+        float manaCost = 20;
         //neu co lenh tan cong thi moi thuc hien combo
         if (Input.GetKeyDown(KeyCode.L) && combotempo < 0 && starts.currentmp >= manaCost)
         {
