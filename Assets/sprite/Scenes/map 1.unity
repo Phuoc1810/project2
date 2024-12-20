@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eff8b0c25314c148b2af660a555c1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSpawmPoint: S1
+  targetSpawmPoint: Spawm01
 --- !u!4 &19607535
 Transform:
   m_ObjectHideFlags: 0
@@ -46707,8 +46707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd805c641abf8514691f4c300baedc49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: Map01
-  targetSpawmPointName: S1
+  targetSceneName: map 2
+  targetSpawmPointName: Spawm01
 --- !u!4 &1736978085 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: 6242b925f1d3e0d44a183102cd3d4c26,
