@@ -10,6 +10,7 @@ TagManager:
   - pointToBoss
   - Boss
   - enemy2
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -85,4 +86,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2136275169
+    locked: 0
+  - name: ENEMY
+    uniqueID: 1915072005
     locked: 0
