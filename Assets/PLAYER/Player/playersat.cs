@@ -21,7 +21,6 @@ public class playersat : MonoBehaviour
     // tg hoi phuc mana va hp
     public float hprecoverytime = 5f;
     public float mprecoverytime = 1f;
-
     public Animator anim;
     void Start()
     {
@@ -52,7 +51,7 @@ public class playersat : MonoBehaviour
             if (mprecoverytime <= 0)
             {
                 currentmp += 1;
-                hprecoverytime = 1f;
+                mprecoverytime = 1f;
             }
         }
 

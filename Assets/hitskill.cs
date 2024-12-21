@@ -17,7 +17,7 @@ public class hitskill : MonoBehaviour
         {
             enemynoastar enemyheath;
             enemyheath = collision.gameObject.GetComponent<enemynoastar>();
-            enemyheath.takedamage(2);
+            enemyheath.takedamage(4);
 
         }
         //tan cong boss 

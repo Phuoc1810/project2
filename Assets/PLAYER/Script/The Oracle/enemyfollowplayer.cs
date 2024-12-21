@@ -12,27 +12,25 @@ public class NewBehaviourScript : MonoBehaviour
     public Animator anim;
     private void Start()
     {
-        anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        anim = GetComponent<Animator>();
     }
     private void Update()
     {
         
         float distancefromplayer = Vector2.Distance(player.position, transform.position);
-        if(distancefromplayer<lineOfSite)
+        if (distancefromplayer < lineOfSite)
         {
             count += 1;
-            if(count==1)
+            if (count == 1)
             {
                 lineOfSite *= 2;
             }
-            anim.SetTrigger("walk");
+            anim.SetTrigger("WALK");
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
         else
-        {
-            anim.SetTrigger("indel");
-        }
+            anim.SetTrigger("INDEL");
       
     }
     private void OnDrawGizmos()

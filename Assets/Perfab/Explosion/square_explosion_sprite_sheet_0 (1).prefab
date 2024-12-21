@@ -122,6 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wartingDuration: 1.5
   damage: 20
+  effectClip: {fileID: 8300000, guid: 1769d3c235d804e468dc9158adabb61e, type: 3}
 --- !u!61 &-295031182806941531
 BoxCollider2D:
   m_ObjectHideFlags: 0
