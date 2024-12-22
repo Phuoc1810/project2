@@ -203,8 +203,15 @@ public class player : MonoBehaviour
         }
         //neu chua het thoi gian de kich hoat combo
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 )
         {
+=======
+        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currenthp >= healCost)
+        {
+            //tru hp
+            stats.currenthp -= healCost;
+>>>>>>> Stashed changes
 =======
         else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currenthp >= healCost)
         {
@@ -251,6 +258,9 @@ public class player : MonoBehaviour
         playersat starts = GetComponent<playersat>();
 
         float manaCost = 20;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         //neu co lenh tan cong thi moi thuc hien combo
         if (Input.GetKeyDown(KeyCode.L) && combotempo < 0)

@@ -1,0 +1,1630 @@
+fileFormatVersion: 2
+guid: f37457fb8190acf4caec17b894653d4b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Elf Back Side_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 158
+      width: 12
+      height: 21
+    spriteID: d2791c80270abd6418336e3d11ba76a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 158}
+  - name: Elf Back Side_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 189
+      width: 12
+      height: 23
+    spriteID: 61657720fdcca4d47851c0560da469a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 189}
+  - name: Elf Back Side_Frame_39
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 32
+      width: 13
+      height: 23
+    spriteID: 0811dcff2de71744198c2f174fe689d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 32}
+  - name: Elf Back Side_Frame_40
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 159
+      width: 13
+      height: 22
+    spriteID: d0aca5680b70b1044977d495d4c14e50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 159}
+  - name: Elf Back Side_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 187
+      width: 12
+      height: 21
+    spriteID: eba4ab6037d2864449f2b43e3d221cde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 187}
+  - name: Elf Back Side_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 216
+      width: 12
+      height: 20
+    spriteID: 78287f20d8cafff4b81eac3e5b9badef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 216}
+  - name: Elf Back Side_Frame_2
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 13
+      height: 21
+    spriteID: 3de1475a50f20db43b27996504cc24b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 4}
+  - name: Elf Back Side_Frame_3
+    originalName: 
+    pivot: {x: 0.25714287, y: -0.47058824}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 35
+      height: 34
+    spriteID: 28bfb42ac31668a488660e9d4deee6ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Elf Back Side_Frame_4
+    originalName: 
+    pivot: {x: 0.2580645, y: -0.5925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 203
+      width: 31
+      height: 27
+    spriteID: c5f2359c7bfb0314086a7d57c59d6bd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 203}
+  - name: Elf Back Side_Frame_5
+    originalName: 
+    pivot: {x: 0.2580645, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
+      width: 31
+      height: 18
+    spriteID: 2433f24a6687b424493d1a73a2ceb4ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 4}
+  - name: Elf Back Side_Frame_6
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 4
+      width: 15
+      height: 20
+    spriteID: 9994f51f18322c24ca700f5262941198
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 4}
+  - name: Elf Back Side_Frame_7
+    originalName: 
+    pivot: {x: 0.3529412, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 136
+      width: 17
+      height: 21
+    spriteID: 93782e0d82b4efd4fb97bc6a2fc928d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 136}
+  - name: Elf Back Side_Frame_8
+    originalName: 
+    pivot: {x: 0.3529412, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 120
+      width: 17
+      height: 19
+    spriteID: dcc6b674e5d3e9f4f9443b6422633eab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 120}
+  - name: Elf Back Side_Frame_9
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 76
+      width: 18
+      height: 21
+    spriteID: b1c3d4570df5ab343a13b5e9b05e9349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 76}
+  - name: Elf Back Side_Frame_10
+    originalName: 
+    pivot: {x: 0.25714287, y: -0.45714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 77
+      width: 35
+      height: 35
+    spriteID: 1ab27663867579e429d02ad53e684de8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 77}
+  - name: Elf Back Side_Frame_11
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.4848485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 162
+      width: 28
+      height: 33
+    spriteID: 643dc715d8bf3604aae1b2ed55016a6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 162}
+  - name: Elf Back Side_Frame_12
+    originalName: 
+    pivot: {x: 0.55, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 4
+      width: 20
+      height: 32
+    spriteID: 7538469fb49ed7e478055353083bfbf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 4}
+  - name: Elf Back Side_Frame_13
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 178
+      width: 15
+      height: 21
+    spriteID: 16193b224ed0cb8459236f8537a05222
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 178}
+  - name: Elf Back Side_Frame_14
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 207
+      width: 14
+      height: 22
+    spriteID: dfd407d9b07699442ae36370f45d8271
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 207}
+  - name: Elf Back Side_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 128
+      width: 12
+      height: 22
+    spriteID: 3ca176ff51edbb44d9260901980f9343
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 128}
+  - name: Elf Back Side_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 220
+      width: 12
+      height: 23
+    spriteID: 845142bdb2beb554f938f1b9e8ce58c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 220}
+  - name: Elf Back Side_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 4
+      width: 12
+      height: 23
+    spriteID: b7736617aab9a9142bdc80a981ec72dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 4}
+  - name: Elf Back Side_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 33
+      width: 12
+      height: 20
+    spriteID: 7df6a121d78b0174893a37c904056c9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 33}
+  - name: Elf Back Side_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.9411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 61
+      width: 13
+      height: 17
+    spriteID: 3f13c44f96b6a66469495aab48e15580
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 61}
+  - name: Elf Back Side_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 237
+      width: 12
+      height: 15
+    spriteID: a4b61487826a513468301db2d8988f99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 237}
+  - name: Elf Back Side_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 135
+      width: 12
+      height: 15
+    spriteID: 45d104ec890dfd24daf3625c1c09d788
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 135}
+  - name: Elf Back Side_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -1.1428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 238
+      width: 12
+      height: 14
+    spriteID: 2b00da9346f81a04e9aff889e1dd7425
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 238}
+  - name: Elf Back Side_Frame_23
+    originalName: 
+    pivot: {x: 0.84210527, y: 0.52307695}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 38
+      height: 65
+    spriteID: 5fa37d5fbd0ce81418be47508f3a65a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Elf Back Side_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 158
+      width: 12
+      height: 15
+    spriteID: 4f80d8aad019b5449a1159c0f39cd1d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 158}
+  - name: Elf Back Side_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 181
+      width: 12
+      height: 15
+    spriteID: 3b1e10f18f6e6f143b7d11c9ec65cad0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 181}
+  - name: Elf Back Side_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 111
+      width: 12
+      height: 16
+    spriteID: 357e808023940134e856d7f0eadc4ead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 111}
+  - name: Elf Back Side_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.9411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 86
+      width: 12
+      height: 17
+    spriteID: e3765f19953195948ab09899211264d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 86}
+  - name: Elf Back Side_Frame_28
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 13
+      height: 54
+    spriteID: 0932e20f42f256546848d97146a79d80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: Elf Back Side_Frame_29
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 66
+      width: 13
+      height: 54
+    spriteID: 52ce44d8d6c867b4e8d7b7d31452786c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 66}
+  - name: Elf Back Side_Frame_30
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 128
+      width: 13
+      height: 54
+    spriteID: 5a22899e62583584e95f74b89aa9abb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 128}
+  - name: Elf Back Side_Frame_31
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 190
+      width: 13
+      height: 54
+    spriteID: fba947620a51c5343ba991ce0bc92068
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 190}
+  - name: Elf Back Side_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 35
+      width: 12
+      height: 23
+    spriteID: eb9fc2492c9492b4a96bd4a9d23b2987
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 35}
+  - name: Elf Back Side_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 63
+      width: 12
+      height: 24
+    spriteID: ecff4f00426b69348a2b1239e21e9c44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 63}
+  - name: Elf Back Side_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 95
+      width: 12
+      height: 24
+    spriteID: d049f71fce9700042a3bb9114408b7db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 95}
+  - name: Elf Back Side_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 66
+      width: 12
+      height: 23
+    spriteID: 4f6f8039d906f984dbaa4e309bc95624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 66}
+  - name: Elf Back Side_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 97
+      width: 12
+      height: 23
+    spriteID: ac9c011a7ab93c442b704155519abdaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 97}
+  - name: Elf Back Side_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 127
+      width: 12
+      height: 24
+    spriteID: 6b7b82399e0107c46b98f55434439e3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 127}
+  - name: Elf Back Side_Frame_42
+    originalName: 
+    pivot: {x: 0.3529412, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 44
+      width: 17
+      height: 24
+    spriteID: 44f6a27a6c0521f4bae9621193bce8cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 44}
+  - name: Elf Back Side_Frame_43
+    originalName: 
+    pivot: {x: 0.375, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 105
+      width: 16
+      height: 23
+    spriteID: 9c22773297d03914cb76895bcf0fc7bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 105}
+  - name: Elf Back Side_Frame_44
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 30
+      width: 15
+      height: 22
+    spriteID: 680390d9625a97641a10420decbdacc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 30}
+  - name: Elf Back Side_Frame_45
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 60
+      width: 15
+      height: 22
+    spriteID: 4b716864a3d746d48b015a4099308ed0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 60}
+  - name: Elf Back Side_Frame_46
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 90
+      width: 15
+      height: 22
+    spriteID: aaff2f1660e866b4496e2b15f41c513d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 90}
+  - name: Elf Back Side_Frame_47
+    originalName: 
+    pivot: {x: 0.4375, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 165
+      width: 16
+      height: 22
+    spriteID: 52a197f75ece02140af41dfa0af0d031
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 165}
+  - name: Elf Back Side_Frame_48
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 147
+      width: 14
+      height: 23
+    spriteID: dc5a4bf316dff9941afb953ecd049111
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 147}
+  - name: Elf Back Side_Frame_49
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 226
+      width: 14
+      height: 24
+    spriteID: 6d2b5a8ae8b37d3409b5eb56677491fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 226}
+  - name: Elf Back Side_Frame_50
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 195
+      width: 15
+      height: 23
+    spriteID: 5b92d0c134897464091e591e1f1739db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 195}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1653462787
+    name: Elf Back Side
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Elf Back Side_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 21
+      spriteId: d2791c80270abd6418336e3d11ba76a8
+    - name: Elf Back Side_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: 61657720fdcca4d47851c0560da469a7
+    - name: Elf Back Side_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 13
+        height: 23
+      spriteId: 0811dcff2de71744198c2f174fe689d7
+    - name: Elf Back Side_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 13
+        height: 22
+      spriteId: d0aca5680b70b1044977d495d4c14e50
+    - name: Elf Back Side_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 21
+      spriteId: eba4ab6037d2864449f2b43e3d221cde
+    - name: Elf Back Side_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 20
+      spriteId: 78287f20d8cafff4b81eac3e5b9badef
+    - name: Elf Back Side_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 13
+        height: 21
+      spriteId: 3de1475a50f20db43b27996504cc24b4
+    - name: Elf Back Side_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 35
+        height: 34
+      spriteId: 28bfb42ac31668a488660e9d4deee6ee
+    - name: Elf Back Side_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 31
+        height: 27
+      spriteId: c5f2359c7bfb0314086a7d57c59d6bd2
+    - name: Elf Back Side_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 31
+        height: 18
+      spriteId: 2433f24a6687b424493d1a73a2ceb4ac
+    - name: Elf Back Side_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 15
+        height: 20
+      spriteId: 9994f51f18322c24ca700f5262941198
+    - name: Elf Back Side_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 17
+        height: 21
+      spriteId: 93782e0d82b4efd4fb97bc6a2fc928d1
+    - name: Elf Back Side_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 17
+        height: 19
+      spriteId: dcc6b674e5d3e9f4f9443b6422633eab
+    - name: Elf Back Side_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 18
+        height: 21
+      spriteId: b1c3d4570df5ab343a13b5e9b05e9349
+    - name: Elf Back Side_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 35
+        height: 35
+      spriteId: 1ab27663867579e429d02ad53e684de8
+    - name: Elf Back Side_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 28
+        height: 33
+      spriteId: 643dc715d8bf3604aae1b2ed55016a6d
+    - name: Elf Back Side_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 16
+        width: 20
+        height: 32
+      spriteId: 7538469fb49ed7e478055353083bfbf6
+    - name: Elf Back Side_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 21
+      spriteId: 16193b224ed0cb8459236f8537a05222
+    - name: Elf Back Side_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 14
+        height: 22
+      spriteId: dfd407d9b07699442ae36370f45d8271
+    - name: Elf Back Side_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 22
+      spriteId: 3ca176ff51edbb44d9260901980f9343
+    - name: Elf Back Side_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: 845142bdb2beb554f938f1b9e8ce58c7
+    - name: Elf Back Side_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: b7736617aab9a9142bdc80a981ec72dd
+    - name: Elf Back Side_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 20
+      spriteId: 7df6a121d78b0174893a37c904056c9e
+    - name: Elf Back Side_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 16
+        width: 13
+        height: 17
+      spriteId: 3f13c44f96b6a66469495aab48e15580
+    - name: Elf Back Side_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 15
+      spriteId: a4b61487826a513468301db2d8988f99
+    - name: Elf Back Side_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 15
+      spriteId: 45d104ec890dfd24daf3625c1c09d788
+    - name: Elf Back Side_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 14
+      spriteId: 2b00da9346f81a04e9aff889e1dd7425
+    - name: Elf Back Side_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -34
+        width: 38
+        height: 65
+      spriteId: 5fa37d5fbd0ce81418be47508f3a65a7
+    - name: Elf Back Side_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 15
+      spriteId: 4f80d8aad019b5449a1159c0f39cd1d1
+    - name: Elf Back Side_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 15
+      spriteId: 3b1e10f18f6e6f143b7d11c9ec65cad0
+    - name: Elf Back Side_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 16
+      spriteId: 357e808023940134e856d7f0eadc4ead
+    - name: Elf Back Side_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 17
+      spriteId: e3765f19953195948ab09899211264d2
+    - name: Elf Back Side_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: -18
+        width: 13
+        height: 54
+      spriteId: 0932e20f42f256546848d97146a79d80
+    - name: Elf Back Side_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: -18
+        width: 13
+        height: 54
+      spriteId: 52ce44d8d6c867b4e8d7b7d31452786c
+    - name: Elf Back Side_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: -18
+        width: 13
+        height: 54
+      spriteId: 5a22899e62583584e95f74b89aa9abb7
+    - name: Elf Back Side_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: -18
+        width: 13
+        height: 54
+      spriteId: fba947620a51c5343ba991ce0bc92068
+    - name: Elf Back Side_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: eb9fc2492c9492b4a96bd4a9d23b2987
+    - name: Elf Back Side_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 24
+      spriteId: ecff4f00426b69348a2b1239e21e9c44
+    - name: Elf Back Side_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 24
+      spriteId: d049f71fce9700042a3bb9114408b7db
+    - name: Elf Back Side_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: 4f6f8039d906f984dbaa4e309bc95624
+    - name: Elf Back Side_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 23
+      spriteId: ac9c011a7ab93c442b704155519abdaa
+    - name: Elf Back Side_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 24
+      spriteId: 6b7b82399e0107c46b98f55434439e3c
+    - name: Elf Back Side_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 17
+        height: 24
+      spriteId: 44f6a27a6c0521f4bae9621193bce8cb
+    - name: Elf Back Side_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 16
+        height: 23
+      spriteId: 9c22773297d03914cb76895bcf0fc7bc
+    - name: Elf Back Side_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 15
+        height: 22
+      spriteId: 680390d9625a97641a10420decbdacc6
+    - name: Elf Back Side_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 15
+        height: 22
+      spriteId: 4b716864a3d746d48b015a4099308ed0
+    - name: Elf Back Side_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 15
+        height: 22
+      spriteId: aaff2f1660e866b4496e2b15f41c513d
+    - name: Elf Back Side_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 16
+        width: 16
+        height: 22
+      spriteId: 52a197f75ece02140af41dfa0af0d031
+    - name: Elf Back Side_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 14
+        height: 23
+      spriteId: dc5a4bf316dff9941afb953ecd049111
+    - name: Elf Back Side_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 14
+        height: 24
+      spriteId: 6d2b5a8ae8b37d3409b5eb56677491fc
+    - name: Elf Back Side_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 16
+        width: 15
+        height: 23
+      spriteId: 5b92d0c134897464091e591e1f1739db
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

@@ -20,6 +20,9 @@ EditorBuildSettings:
     path: Assets/PLAYER/Script/Scenes/Remake/Map03.unity
     guid: 988246d964bb3b94cb45bce0532024d0
   - enabled: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     path: Assets/PLAYER/Script/Scenes/map 2.unity
     guid: eb9f7953f802c41459088502d4c21555
