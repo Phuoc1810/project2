@@ -174,9 +174,25 @@ public class player : MonoBehaviour
     {
         //giam combo tempo theo thoi gian khung hinh time.deltatime;
         combotempo -= Time.deltaTime;
+<<<<<<< Updated upstream
         //neu co lenh tan cong thi moi thuc hien combo
         if (Input.GetKeyDown(KeyCode.K) && combotempo < 0)
         {
+=======
+
+        //lay sprite playersat de truy cap chi so mana
+        playersat stats = GetComponent<playersat>();
+        if(stats == null) return;
+
+        float healCost = 5; //luong hp tieu ton cho ki nang 1
+
+        //neu co lenh tan cong thi moi thuc hien combo
+        if (Input.GetKeyDown(KeyCode.K) && combotempo < 0 && stats.currenthp >= healCost) //kiem tra va kich hoat ki nang neu co du mana
+        {
+            //tru hp
+            stats.currenthp -= healCost;
+
+>>>>>>> Stashed changes
             //bat trang thai tan cong
             attacking = true;
             //kich hoat animation tan conng
@@ -186,8 +202,15 @@ public class player : MonoBehaviour
             combotempo = combotiming;
         }
         //neu chua het thoi gian de kich hoat combo
+<<<<<<< Updated upstream
         else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 )
         {
+=======
+        else if (Input.GetKeyDown(KeyCode.K) && combotempo > 0 && stats.currenthp >= healCost)
+        {
+            //tru hp
+            stats.currenthp -= healCost;
+>>>>>>> Stashed changes
             // bat trang thai tan cong
             attacking = true;
 
@@ -221,6 +244,14 @@ public class player : MonoBehaviour
     {
         //giam combo tempo theo thoi gian khung hinh time.deltatime;
         combotempo -= Time.deltaTime;
+<<<<<<< Updated upstream
+=======
+
+        //lay sprite playersat de truy cap chi so mana
+        playersat starts = GetComponent<playersat>();
+
+        float manaCost = 20;
+>>>>>>> Stashed changes
         //neu co lenh tan cong thi moi thuc hien combo
         if (Input.GetKeyDown(KeyCode.L) && combotempo < 0)
         {
